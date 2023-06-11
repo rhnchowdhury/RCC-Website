@@ -7,13 +7,13 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
-        <div className='bg-gray-500'>
+        <div className='bg-gray-500 pt-8'>
             <p className='text-center text-white'>Get in touch</p>
             <div className='text-center'>
                 <h1 className='text-4xl font-medium text-white'>CONTACT US</h1>
-                <p className='text-lg text-white'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus nihil facilis reiciendis officiis <br /> consectetur reprehenderit eveniet, blanditiis illo exercitationem possimus?</p>
+                <p className='text-lg text-white mt-4'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus nihil facilis reiciendis officiis <br /> consectetur reprehenderit eveniet, blanditiis illo exercitationem possimus?</p>
             </div>
-            <div className='grid grid-cols-3'>
+            <div className='grid grid-cols-3 m-8'>
                 <div className="card w-96 bg-zinc-600 text-primary-content">
                     <div className="card-body">
                         <span><FaMobileAlt></FaMobileAlt></span>
@@ -38,7 +38,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className='ml-32 space-y-5 my-5 place-items-center'>
+            <div className='ml-32 space-y-5 my-5'>
                 <div className='space-x-5'>
                     <input type="text" placeholder="Name" className="input border-0 w-full max-w-lg" />
                     <input type="text" placeholder="Name" className="input input-bordered w-full max-w-lg" />
@@ -48,6 +48,9 @@ const Footer = () => {
                 </div>
                 <div>
                     <textarea placeholder="Message" className="textarea textarea-bordered textarea-lg w-full h-56 max-w-5xl" ></textarea>
+                </div>
+                <div className='ml-96'>
+                    <button className="btn btn-outline">Send Message</button>
                 </div>
             </div>
             <div>

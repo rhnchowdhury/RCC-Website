@@ -6,11 +6,11 @@ import logo4 from '../../../logo/photo.png';
 
 const Service = () => {
     return (
-        <div>
+        <section className=''>
             <p className='text-center'>WHAT CAN WE DO</p>
             <div className='text-center'>
                 <h1 className=" text-4xl font-medium">OUR SERVICES</h1>
-                <p className='text-lg'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus nihil facilis reiciendis officiis <br /> consectetur reprehenderit eveniet, blanditiis illo exercitationem possimus?</p>
+                <p className='text-lg mt-4'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus nihil facilis reiciendis officiis <br /> consectetur reprehenderit eveniet, blanditiis illo exercitationem possimus?</p>
             </div>
             <div className='grid grid-cols-2 gap-5 ml-44 my-8'>
                 <div className="card w-96 bg-zinc-200 text-primary-content">
@@ -41,10 +41,8 @@ const Service = () => {
                         <p className='text-black text-center'>Whenever a production is needed, be it Photography or Videography, we got you covered.</p>
                     </div>
                 </div>
-
-
             </div>
-        </div>
+        </section>
     );
 };
 
