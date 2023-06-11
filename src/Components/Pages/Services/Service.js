@@ -1,8 +1,8 @@
 import React from 'react';
-import logo1 from '../../../logo/533efd7945-removebg-preview.png';
+import logo1 from '../../../logo/contain.png';
 import logo2 from '../../../logo/graphic-design.png';
 import logo3 from '../../../logo/ads.png';
-import logo4 from '../../../logo/camera-icon-54.png';
+import logo4 from '../../../logo/photo.png';
 
 const Service = () => {
     return (
@@ -16,29 +16,29 @@ const Service = () => {
                 <div className="card w-96 bg-zinc-200 text-primary-content">
                     <div className="card-body">
                         <span className='flex justify-center'><img src={logo1} alt="content" className="w-12 h-12 " /></span>
-                        <p className='text-black text-center'>Content Creation</p>
-                        <p className='text-white text-center'>Brainstorming innovative ideas and executing them in the form of digital media information is what content creation is about. Through this we help our client to aware its audience about the brand and keep them engaged. Our target is to stay on top of mind.</p>
+                        <h1 className='text-black text-center text-xl font-medium'>Content Creation</h1>
+                        <p className='text-black text-center'>Brainstorming innovative ideas and executing them in the form of digital media information is what content creation is about. Through this we help our client to aware its audience about the brand and keep them engaged. Our target is to stay on top of mind.</p>
                     </div>
                 </div>
                 <div className="card w-96 bg-zinc-200 text-primary-content">
                     <div className="card-body">
                         <span className='flex justify-center'><img src={logo2} alt="content" className="w-12 h-12 " /></span>
-                        <p className='text-white text-center'>Graphic Design</p>
-                        <p className='text-white text-center'>Now, once the ideas are jotted down, it’s time for the visualizers to put them to life on the screens with eye-catching designs and animation. We gotta tell the story right. Right?</p>
+                        <p className='text-black text-center text-xl font-medium'>Graphic Design</p>
+                        <p className='text-black text-center'>Now, once the ideas are jotted down, it’s time for the visualizers to put them to life on the screens with eye-catching designs and animation. We gotta tell the story right. Right?</p>
                     </div>
                 </div>
                 <div className="card w-96 bg-zinc-200 text-primary-content">
                     <div className="card-body">
                         <span className='flex justify-center'><img src={logo3} alt="content" className="w-12 h-12 " /></span>
-                        <p className='text-white text-center'>Ads and Optimization</p>
-                        <p className='text-white text-center'>Once we have the visually pleasing content ready, It is time to promote it To its target audience to get the maximum reach and engagement. We keep Refining the audience from previous insights and optimise ads accordingly. We are good at it.</p>
+                        <p className='text-black text-center text-xl font-medium'>Ads and Optimization</p>
+                        <p className='text-black text-center'>Once we have the visually pleasing content ready, It is time to promote it To its target audience to get the maximum reach and engagement. We keep Refining the audience from previous insights and optimise ads accordingly. We are good at it.</p>
                     </div>
                 </div>
                 <div className="card w-96 bg-zinc-200 text-primary-content">
                     <div className="card-body">
                         <span className='flex justify-center'><img src={logo4} alt="content" className="w-12 h-12 " /></span>
-                        <p className='text-white text-center'>Photo & Video Production</p>
-                        <p className='text-white text-center'>Whenever a production is needed, be it Photography or Videography, we got you covered.</p>
+                        <p className='text-black text-center text-xl font-medium'>Photo & Video Production</p>
+                        <p className='text-black text-center'>Whenever a production is needed, be it Photography or Videography, we got you covered.</p>
                     </div>
                 </div>
 
