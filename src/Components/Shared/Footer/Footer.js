@@ -14,7 +14,7 @@ const Footer = () => {
                 <p className='text-lg text-white'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus nihil facilis reiciendis officiis <br /> consectetur reprehenderit eveniet, blanditiis illo exercitationem possimus?</p>
             </div>
             <div className='grid grid-cols-3'>
-                <div className="card w-96 bg-black text-primary-content">
+                <div className="card w-96 bg-zinc-600 text-primary-content">
                     <div className="card-body">
                         <span><FaMobileAlt></FaMobileAlt></span>
                         <p className='text-white'>Phone</p>
@@ -22,7 +22,7 @@ const Footer = () => {
                         <p className='text-white'>+8801716688069</p>
                     </div>
                 </div>
-                <div className="card w-96 bg-black text-primary-content">
+                <div className="card w-96 bg-zinc-600 text-primary-content">
                     <div className="card-body">
                         <span> <IoLocationSharp></IoLocationSharp> </span>
                         <p className='text-white'>Address</p>
@@ -30,7 +30,7 @@ const Footer = () => {
 
                     </div>
                 </div>
-                <div className="card w-96 bg-black text-primary-content">
+                <div className="card w-96 bg-zinc-600 text-primary-content">
                     <div className="card-body">
                         <span><MdAlternateEmail></MdAlternateEmail></span>
                         <p className='text-white'>Email</p>
