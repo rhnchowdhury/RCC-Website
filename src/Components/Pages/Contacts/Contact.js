@@ -2,6 +2,7 @@ import React from 'react';
 import { FcCellPhone } from "react-icons/fc";
 import { AiOutlineMail } from "react-icons/ai";
 import { RiUserLocationLine } from "react-icons/ri";
+import Map from './Map';
 
 const Contact = () => {
     return (
@@ -45,6 +46,7 @@ const Contact = () => {
                 </div>
 
             </div>
+            <Map></Map>
         </section>
     );
 };
