@@ -46,7 +46,9 @@ const Contact = () => {
                 </div>
 
             </div>
-            <Map></Map>
+            <div className='my-5'>
+                <Map></Map>
+            </div>
         </section>
     );
 };
