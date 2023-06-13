@@ -3,6 +3,7 @@ import Main from "../Layouts/Main/Main";
 import Home from "../Pages/Homes/Home";
 import Contact from "../Pages/Contacts/Contact";
 import TeamAll from "../Pages/Teams/TeamAll";
+import About from "../Pages/Abouts/About";
 
 const router = createBrowserRouter([
     {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
             {
                 path: '/team',
                 element: <TeamAll></TeamAll>
+            },
+            {
+                path: '/about',
+                element: <About></About>
             }
         ]
     }
