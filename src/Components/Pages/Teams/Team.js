@@ -3,6 +3,7 @@ import img1 from '../../../teams/Azfar-Rahman.png';
 import img2 from '../../../teams/Fahmeda-Gulzar.png';
 import img3 from '../../../teams/Mir-Ibtid-Mahmud.png';
 import img4 from '../../../teams/Sadman-al-sadaf.png';
+import { Link } from 'react-router-dom';
 
 const Team = () => {
     return (
@@ -18,6 +19,9 @@ const Team = () => {
                     <img src={img2} alt="" />
                     <img src={img3} alt="" />
                     <img src={img4} alt="" />
+                </div>
+                <div className='flex justify-center my-5'>
+                    <button className="btn btn-outline"><Link to='/team'>See All</Link></button>
                 </div>
             </div>
         </section>
