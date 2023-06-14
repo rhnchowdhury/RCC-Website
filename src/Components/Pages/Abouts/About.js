@@ -12,6 +12,8 @@ const About = () => {
                 <div>
                     <div>
                         <SlLink></SlLink>
+                        <h1>OUR PURPOSE</h1>
+                        <p>RCC serves as the bridge that connects clients with customers to encourage positive actions & change lives through innovative ideas.</p>
                     </div>
                 </div>
             </div>
