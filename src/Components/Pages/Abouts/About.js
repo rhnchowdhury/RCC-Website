@@ -1,6 +1,7 @@
 import React from 'react';
 import { SlLink } from "react-icons/sl";
 import { GoBroadcast, GoGoal } from "react-icons/go";
+import { AiOutlineFlag, IconName } from "react-icons/ai";
 
 const About = () => {
     return (
@@ -22,6 +23,11 @@ const About = () => {
                         {/* <GoGoal></GoGoal> */}
                         <h1>OUR GOAL</h1>
                         <p>We will inspire you to create new business opportunities with confidence. We are your reliable & accessible digital business partner.</p>
+                    </div>
+                    <div>
+                        <AiOutlineFlag></AiOutlineFlag>
+                        <h1>OUR HERITAGE</h1>
+                        <p>Canadian based with local presence in Dubai, United Arab Emirates since 2015, created with passion for digital and social media marketing services & strong determination to connecting brands with people.</p>
                     </div>
                 </div>
             </div>
