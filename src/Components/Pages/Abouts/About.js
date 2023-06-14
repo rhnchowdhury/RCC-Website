@@ -1,5 +1,6 @@
 import React from 'react';
 import { SlLink } from "react-icons/sl";
+import { GoBroadcast, GoGoal } from "react-icons/go";
 
 const About = () => {
     return (
@@ -14,6 +15,13 @@ const About = () => {
                         <SlLink></SlLink>
                         <h1>OUR PURPOSE</h1>
                         <p>RCC serves as the bridge that connects clients with customers to encourage positive actions & change lives through innovative ideas.</p>
+                    </div>
+                    <div>
+                        {/* <GoGoal></GoGoal> */}
+                        <GoBroadcast></GoBroadcast>
+                        {/* <GoGoal></GoGoal> */}
+                        <h1>OUR GOAL</h1>
+                        <p>We will inspire you to create new business opportunities with confidence. We are your reliable & accessible digital business partner.</p>
                     </div>
                 </div>
             </div>
