@@ -12,7 +12,7 @@ import img10 from '../../../teams/Redwanur-Rahman-Rafi.png';
 import img11 from '../../../teams/Sadia-Hossain-Lubna.png';
 import img12 from '../../../teams/Sadman-al-sadaf.png';
 import img13 from '../../../teams/Sharif-Hossen.png';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 const Team = () => {
     return (
