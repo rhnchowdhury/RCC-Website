@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { AdjustmentsVerticalIcon, XMarkIcon } from '@heroicons/react/24/solid';
+import { MdForwardToInbox } from "react-icons/md";
 import logo from '../../../Icon/Rcc logo.png';
 
 const NavBar = () => {
@@ -13,8 +14,10 @@ const NavBar = () => {
                 {/* <Link to='/'><img src={logo} alt="RainCloud" className='w-16 h-20' /></Link> */}
             </div>
             <div className="flex-none gap-20">
-                <div className="form-control">
-                    <input type="text" placeholder="Search" className="input input-bordered w-24 md:w-auto" />
+                <div className='flex'>
+                    {/* <input type="text" placeholder="Search" className="input input-bordered w-24 md:w-auto" /> */}
+                    <p>Get in Touch</p>
+                    <span className='ml-2'><MdForwardToInbox className='w-6 h-6'></MdForwardToInbox></span>
                 </div>
                 <div className="dropdown dropdown-end">
                     <label tabIndex={0} >
