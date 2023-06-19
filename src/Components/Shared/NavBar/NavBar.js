@@ -9,32 +9,33 @@ const NavBar = () => {
 
         <div className="navbar bg-base-100">
             <div className="flex-1">
-                {/* <a className="btn btn-ghost normal-case text-xl">daisyUI</a> */}
-                <Link to='/'><img src={logo} alt="RainCloud" className='w-16 h-20' /></Link>
+                <a className="btn btn-ghost normal-case text-xl">RainCloud</a>
+                {/* <Link to='/'><img src={logo} alt="RainCloud" className='w-16 h-20' /></Link> */}
             </div>
-            <div className="flex-none gap-2">
+            <div className="flex-none gap-20">
                 <div className="form-control">
                     <input type="text" placeholder="Search" className="input input-bordered w-24 md:w-auto" />
                 </div>
                 <div className="dropdown dropdown-end">
-                    <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
-                        <div onClick={() => setOpen(!open)} className="h-6 w-6 text-blue-500">
+                    <label tabIndex={0} >
+                        <div >
                             {
                                 open ?
-                                    <XMarkIcon />
+                                    <XMarkIcon onClick={() => setOpen(!open)} className="h-8 w-10 cursor-pointer text-blue-500" />
                                     :
-                                    <AdjustmentsVerticalIcon />
+                                    <AdjustmentsVerticalIcon onClick={() => setOpen(!open)} className="h-8 w-10 cursor-pointer text-blue-500" />
                             }
 
 
                         </div>
                     </label>
-                    <ul className={`mt-3 p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52 ${open ? 'right-32' : 'right-[-32]'}`}>
+                    <ul className="mt-3 p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52">
                         <li><Link to='/'>Home</Link></li>
                         <li><Link to='/about'>About</Link></li>
                         <li><Link to='/team'>Our Teams</Link></li>
                         <li><Link to='/service'>Services</Link></li>
                         <li><Link to='/contact'>Contact</Link></li>
+                        {/* ${open ? 'right-12' : 'right-[-0px]'} */}
                     </ul>
                 </div>
             </div>
