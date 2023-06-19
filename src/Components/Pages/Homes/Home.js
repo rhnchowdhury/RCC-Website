@@ -4,10 +4,12 @@ import Message from '../Messages/Message';
 import Team from '../Teams/Team';
 import Work from '../Works/Work';
 import Client from '../Clients/Client';
+import Header from '../../Shared/Header';
 
 const Home = () => {
     return (
         <div>
+            <Header></Header>
             <Work></Work>
             <Team></Team>
             <Service></Service>
