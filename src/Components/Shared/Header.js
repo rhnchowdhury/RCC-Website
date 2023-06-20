@@ -11,7 +11,10 @@ const Header = () => {
             <div className='para-2'>
                 {/* <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At fugiat veniam consectetur a enim reprehenderit alias temporibus ab porro totam.</p> */}
             </div>
-            <video src={reel}></video>
+            {/* <video src={reel} autoplay></video> */}
+            <video autoPlay loop muted>
+                <source src={reel} type="video/mp4" />
+            </video>
         </div>
     );
 };
