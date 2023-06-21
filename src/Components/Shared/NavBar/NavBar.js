@@ -2,16 +2,16 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { AdjustmentsVerticalIcon, XMarkIcon } from '@heroicons/react/24/solid';
 import { MdForwardToInbox } from "react-icons/md";
-import logo from '../../../Icon/Rcc logo.png';
+import logo from '../../../Icon/RC-golden-logo.png';
 
 const NavBar = () => {
     const [open, setOpen] = useState(false);
     return (
 
-        <div className="navbar bg-base-100">
+        <div className="navbar bg-black">
             <div className="flex-1">
-                <a className="btn btn-ghost normal-case text-xl">RainCloud</a>
-                {/* <Link to='/'><img src={logo} alt="RainCloud" className='w-16 h-20' /></Link> */}
+                {/* <a className="btn btn-ghost normal-case text-xl">RainCloud</a> */}
+                <Link to='/'><img src={logo} alt="RainCloud" className='w-28 h-24' /></Link>
             </div>
             <div className="flex-none gap-20">
                 <div className='flex'>
