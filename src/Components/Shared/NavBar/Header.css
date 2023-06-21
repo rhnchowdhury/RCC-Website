@@ -1,33 +1,49 @@
 .sect {
     /* position: absolute; */
     top: 50%;
-    left: 50%;
+    /* left: 50%; */
     margin-left: 6%;
     /* transform: translate(-50%, -50%); */
     height: 400px;
     width: 1200px;
     background-color: white;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    /* box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); */
     display: flex;
 }
 
 .para-2 {
-    width: calc(50% -50px);
+    /* width: calc(50% -50px);
     height: 100%;
     background-color: white;
-    /* background-color: rgb(31, 223, 223); */
-    /* border-left: 100px solid white; */
     padding: 2% 5%;
     line-height: 1.5em;
     font-size: 18px;
-    text-align: justify;
+    text-align: justify; */
+
+    width: calc(50% +50px);
+    height: 90%;
+    /* margin: 3%; */
+    /* background-color: red; */
+    /* border-left: 100px solid white;
+    border-bottom: 400px solid transparent; */
+    transform: skewX(10deg);
+    transform-origin: right top;
 
 }
 
 .para-1 {
     width: calc(50% +50px);
     height: 100%;
+    /* margin: 3%; */
     background-color: rgb(31, 223, 223);
     border-right: 100px solid white;
     border-bottom: 400px solid transparent;
+}
+
+.digital {
+    margin: 4%;
+}
+
+.partner {
+    margin: 4%;
 }
