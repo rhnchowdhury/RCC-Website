@@ -9,20 +9,9 @@ import './NavBar.css';
 const NavBar = () => {
     const [open, setOpen] = useState(false);
     return (
-
-        <div className="navbar">
-            <div className="flex-1">
-                {/* <a className="btn btn-ghost normal-case text-xl">RainCloud</a> */}
-                <Link to='/'><img src={logo} alt="RainCloud" className='w-56 h-24 test' /></Link>
-            </div>
-            <div className="flex-none gap-96">
-                <div className='flex'>
-                    <Link to='/contact' className='flex'>
-                        <p className='text-base font-bold'>GET IN TOUCH</p>
-                        <span className='ml-2'><MdForwardToInbox className='w-6 h-6'></MdForwardToInbox></span>
-                    </Link>
-                </div>
-                <div className="dropdown dropdown-end">
+        <div className="navbar bg-base-100">
+            <div className="navbar-start">
+                <div className="dropdown">
                     <label tabIndex={0} >
                         <div >
                             {
@@ -42,7 +31,19 @@ const NavBar = () => {
                         <li><Link to='/contact'>Contact</Link></li>
                         {/* ${open ? 'right-12' : 'right-[-0px]'} */}
                     </ul>
+
                 </div>
+            </div>
+            <div className="navbar-center">
+                {/* <a className="btn btn-ghost normal-case text-xl">daisyUI</a> */}
+
+                <Link to='/contact' className='flex'>
+                    <p className='text-base font-bold'>GET IN TOUCH</p>
+                    <span className='ml-2'><MdForwardToInbox className='w-6 h-6'></MdForwardToInbox></span>
+                </Link>
+            </div>
+            <div className="navbar-end">
+                <Link to='/'><img src={logo} alt="RainCloud" className='w-56 h-24' /></Link>
             </div>
         </div>
     );
