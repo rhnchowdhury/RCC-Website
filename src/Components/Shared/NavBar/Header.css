@@ -1,13 +1,9 @@
 .sect {
-    /* position: absolute; */
     top: 50%;
-    /* left: 50%; */
     margin-left: 6%;
-    /* transform: translate(-50%, -50%); */
     height: 400px;
     width: 1200px;
     background-color: white;
-    /* box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); */
     display: flex;
 }
 

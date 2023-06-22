@@ -4,6 +4,7 @@ import { RiMenu5Fill } from "react-icons/ri";
 import { RxCross2 } from "react-icons/rx";
 import { MdForwardToInbox } from "react-icons/md";
 import logo from '../../../Icon/RC-golden-logo.png';
+import './NavBar.css';
 
 const NavBar = () => {
     const [open, setOpen] = useState(false);
@@ -12,13 +13,14 @@ const NavBar = () => {
         <div className="navbar">
             <div className="flex-1">
                 {/* <a className="btn btn-ghost normal-case text-xl">RainCloud</a> */}
-                <Link to='/'><img src={logo} alt="RainCloud" className='w-56 h-24' /></Link>
+                <Link to='/'><img src={logo} alt="RainCloud" className='w-56 h-24 test' /></Link>
             </div>
             <div className="flex-none gap-96">
                 <div className='flex'>
-                    {/* <input type="text" placeholder="Search" className="input input-bordered w-24 md:w-auto" /> */}
-                    <p>Get in Touch</p>
-                    <span className='ml-2'><MdForwardToInbox className='w-6 h-6'></MdForwardToInbox></span>
+                    <Link to='/contact' className='flex'>
+                        <p className='text-base font-bold'>GET IN TOUCH</p>
+                        <span className='ml-2'><MdForwardToInbox className='w-6 h-6'></MdForwardToInbox></span>
+                    </Link>
                 </div>
                 <div className="dropdown dropdown-end">
                     <label tabIndex={0} >
