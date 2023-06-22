@@ -8,7 +8,7 @@ const NavBar = () => {
     const [open, setOpen] = useState(false);
     return (
 
-        <div className="navbar bg-black">
+        <div className="navbar">
             <div className="flex-1">
                 {/* <a className="btn btn-ghost normal-case text-xl">RainCloud</a> */}
                 <Link to='/'><img src={logo} alt="RainCloud" className='w-28 h-24' /></Link>
