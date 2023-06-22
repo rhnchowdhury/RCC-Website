@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { AdjustmentsVerticalIcon, XMarkIcon } from '@heroicons/react/24/solid';
+import { RiMenu5Fill } from "react-icons/ri";
+import { RxCross2 } from "react-icons/rx";
 import { MdForwardToInbox } from "react-icons/md";
 import logo from '../../../Icon/RC-golden-logo.png';
 
@@ -11,9 +12,9 @@ const NavBar = () => {
         <div className="navbar">
             <div className="flex-1">
                 {/* <a className="btn btn-ghost normal-case text-xl">RainCloud</a> */}
-                <Link to='/'><img src={logo} alt="RainCloud" className='w-28 h-24' /></Link>
+                <Link to='/'><img src={logo} alt="RainCloud" className='w-56 h-24' /></Link>
             </div>
-            <div className="flex-none gap-20">
+            <div className="flex-none gap-96">
                 <div className='flex'>
                     {/* <input type="text" placeholder="Search" className="input input-bordered w-24 md:w-auto" /> */}
                     <p>Get in Touch</p>
@@ -24,11 +25,10 @@ const NavBar = () => {
                         <div >
                             {
                                 open ?
-                                    <XMarkIcon onClick={() => setOpen(!open)} className="h-8 w-10 cursor-pointer text-blue-500" />
+                                    <RxCross2 onClick={() => setOpen(!open)} className="h-8 w-10 cursor-pointer text-blue-500" />
                                     :
-                                    <AdjustmentsVerticalIcon onClick={() => setOpen(!open)} className="h-8 w-10 cursor-pointer text-blue-500" />
+                                    <RiMenu5Fill onClick={() => setOpen(!open)} className="h-8 w-10 cursor-pointer text-blue-500" />
                             }
-
 
                         </div>
                     </label>
