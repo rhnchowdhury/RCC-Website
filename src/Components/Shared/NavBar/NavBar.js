@@ -10,7 +10,7 @@ const NavBar = () => {
     const [open, setOpen] = useState(false);
     return (
         <div className="navbar bg-base-100">
-            <div className="navbar-start">
+            <div className="navbar-start test">
                 <div className="dropdown">
                     <label tabIndex={0} >
                         <div >
