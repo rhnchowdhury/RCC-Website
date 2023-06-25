@@ -14,12 +14,12 @@ const NavBar = () => {
                 <div className="dropdown">
                     <label tabIndex={0} >
                         <div >
-                            {
+                            {/* {
                                 open ?
                                     <RxCross2 onClick={() => setOpen(!open)} className="h-8 w-10 cursor-pointer text-blue-500" />
                                     :
                                     <RiMenu5Fill onClick={() => setOpen(!open)} className="h-8 w-10 cursor-pointer text-blue-500" />
-                            }
+                            } */}
 
                         </div>
                     </label>
