@@ -44,7 +44,7 @@ const NavBar = () => {
                 </Link>
             </div>
             <div className="navbar-end">
-                <Link to='/'><img src={logo} alt="RainCloud" className='w-56 h-24' /></Link>
+                {/* <Link to='/'><img src={logo} alt="RainCloud" className='h-0' /></Link> */}
             </div>
         </div>
     );
