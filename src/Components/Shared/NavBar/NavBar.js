@@ -7,13 +7,14 @@ import logo from '../../../Icon/RC-golden-logo.png';
 import './NavBar.css';
 
 const NavBar = () => {
-    const [open, setOpen] = useState(false);
+    const [open, setOpen] = useState(false)
     return (
-        <div className="navbar bg-base-100">
-            <div className="navbar-start test">
+        <div className="navbar" style={{ backgroundColor: 'rgb(212,175,55)' }}>
+            {/* style={{ backgroundColor: 'rgb(212,175,55)' }} */}
+            <div className="navbar-start test -mb-6">
                 <div className="dropdown">
                     <label tabIndex={0} >
-                        <div >
+                        <div className=''>
                             {/* {
                                 open ?
                                     <RxCross2 onClick={() => setOpen(!open)} className="h-8 w-10 cursor-pointer text-blue-500" />
@@ -31,7 +32,7 @@ const NavBar = () => {
                         <li><Link to='/contact'>Contact</Link></li>
                         {/* ${open ? 'right-12' : 'right-[-0px]'} */}
                     </ul>
-
+                    {/* background-color="4283586137" */}
                 </div>
             </div>
             <div className="navbar-center">
