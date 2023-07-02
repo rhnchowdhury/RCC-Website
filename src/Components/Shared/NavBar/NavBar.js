@@ -10,21 +10,22 @@ const NavBar = () => {
     const [open, setOpen] = useState(false)
     return (
         <div className="navbar" style={{ backgroundColor: 'rgb(212,175,55)' }}>
+
             {/* style={{ backgroundColor: 'rgb(212,175,55)' }} */}
             <div className="navbar-start test -mb-6">
                 <div className="dropdown">
                     <label tabIndex={0} >
                         <div className=''>
-                            {/* {
+                            {
                                 open ?
                                     <RxCross2 onClick={() => setOpen(!open)} className="h-8 w-10 cursor-pointer text-blue-500" />
                                     :
                                     <RiMenu5Fill onClick={() => setOpen(!open)} className="h-8 w-10 cursor-pointer text-blue-500" />
-                            } */}
+                            }
 
                         </div>
                     </label>
-                    <ul className="mt-3 p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52">
+                    <ul className="mt-3 p-2 shadow  menu menu-sm dropdown-content bg-base-100 rounded-box w-52">
                         <li><Link to='/'>Home</Link></li>
                         <li><Link to='/about'>About</Link></li>
                         <li><Link to='/team'>Our Teams</Link></li>
@@ -32,9 +33,9 @@ const NavBar = () => {
                         <li><Link to='/contact'>Contact</Link></li>
                         {/* ${open ? 'right-12' : 'right-[-0px]'} */}
                     </ul>
-                    {/* background-color="4283586137" */}
                 </div>
             </div>
+
             <div className="navbar-center">
                 {/* <a className="btn btn-ghost normal-case text-xl">daisyUI</a> */}
 
