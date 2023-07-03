@@ -1,19 +1,21 @@
 .test {
-    width: calc(70% -70px);
+    width: calc(50% -50px);
     /* background-color: rgb(31, 223, 223); */
     background-color: black;
-    margin-right: 25.9%;
-    /* margin-right: 60%; */
+    margin-right: 25.3%;
     border-right: 35px solid rgb(212, 175, 55);
-    border-bottom: 95px solid transparent;
+    border-bottom: 93px solid transparent;
 }
 
 .nab {
+    /* background-color: rgb(212, 175, 55); */
+    width: calc(50% -50px);
     background-color: black;
-    /* background-color: black; */
-    margin-right: 28%;
-    border-right: 80px solid rgb(212, 175, 55);
-    border-bottom: 60px solid transparent;
+    /* padding: 10%; */
+    margin-right: 25.5%;
+    /* margin-right: 30%; */
+    border-right: 1000px solid rgb(212, 175, 55);
+    /* border-bottom: 60px solid transparent; */
 }
 
 .des {

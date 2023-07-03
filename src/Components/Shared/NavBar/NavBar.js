@@ -9,11 +9,14 @@ import './NavBar.css';
 const NavBar = () => {
     const [open, setOpen] = useState(false)
     return (
-        <div className="navbar" style={{ backgroundColor: 'rgb(212,175,55)' }}>
+        <div className="navbar" >
 
             {/* style={{ backgroundColor: 'rgb(212,175,55)' }} */}
             <div className="navbar-start test -mb-6">
-                <div className="dropdown">
+                <label className='bg-white'>
+                    <input type="checkbox" />
+                </label>
+                {/* <div className="dropdown">
                     <label tabIndex={0} >
                         <div className=''>
                             {
@@ -24,6 +27,7 @@ const NavBar = () => {
                             }
 
                         </div>
+                        <input type="checkbox" />
                     </label>
                     <ul className="mt-3 p-2 shadow  menu menu-sm dropdown-content bg-base-100 rounded-box w-52">
                         <li><Link to='/'>Home</Link></li>
@@ -31,11 +35,11 @@ const NavBar = () => {
                         <li><Link to='/team'>Our Teams</Link></li>
                         <li><Link to='/service'>Services</Link></li>
                         <li><Link to='/contact'>Contact</Link></li>
-                        {/* ${open ? 'right-12' : 'right-[-0px]'} */}
+                        
                     </ul>
-                </div>
+                </div> */}
             </div>
-
+            {/* ${open ? 'right-12' : 'right-[-0px]'} */}
             <div className="navbar-center">
                 {/* <a className="btn btn-ghost normal-case text-xl">daisyUI</a> */}
 
@@ -45,7 +49,7 @@ const NavBar = () => {
                 </Link>
             </div>
             <div className="navbar-end">
-                {/* <Link to='/'><img src={logo} alt="RainCloud" className='h-0' /></Link> */}
+                <Link to='/'><img src={logo} alt="RainCloud" className='h-12 w-40' /></Link>
             </div>
         </div>
     );
