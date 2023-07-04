@@ -13,8 +13,13 @@ const NavBar = () => {
 
             {/* style={{ backgroundColor: 'rgb(212,175,55)' }} */}
             <div className="navbar-start test -mb-6">
-                <label className='bg-white'>
+                <label className='hamburger' style={{ backgroundColor: 'rgb(212,175,55)' }}>
                     <input type="checkbox" />
+                    <div className='toggle'>
+                        <span className='line1 common'></span>
+                        <span className='line2 common'></span>
+                        <span className='line3 common'></span>
+                    </div>
                 </label>
                 {/* <div className="dropdown">
                     <label tabIndex={0} >
