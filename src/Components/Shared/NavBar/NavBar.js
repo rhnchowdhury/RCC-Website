@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { RiMenu5Fill } from "react-icons/ri";
 import { RxCross2 } from "react-icons/rx";
 import { MdForwardToInbox } from "react-icons/md";
-import logo from '../../../Icon/RC-golden-logo.png';
+import logo from '../../../Icon/RC-black-logo.png';
 import './NavBar.css';
 
 const NavBar = () => {
@@ -53,7 +53,7 @@ const NavBar = () => {
                 </div> */}
             </div>
             {/* ${open ? 'right-12' : 'right-[-0px]'} */}
-            <div className="navbar-center">
+            <div className="navbar-center" style={{ backgroundColor: 'rgb(212,175,55)' }}>
                 {/* <a className="btn btn-ghost normal-case text-xl">daisyUI</a> */}
 
                 <Link to='/contact' className='flex'>

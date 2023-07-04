@@ -1,8 +1,10 @@
 .sect {
     top: 50%;
-    margin-left: 6%;
-    height: 400px;
-    width: 1200px;
+    /* margin-left: 6%; */
+    height: 500px;
+    /* height: 400px; */
+    /* width: 1300px; */
+    width: 100%;
     background-color: rgb(212, 175, 55);
     display: flex;
 }
@@ -10,15 +12,22 @@
 .para-1 {
     width: calc(70% -70px);
     height: 90%;
+    /* width: calc(50% -50px);
+    height: 60%; */
     background-color: black;
     border-right: 150px solid rgb(212, 175, 55);
+    /* border-right: 200px solid rgb(212, 175, 55);
+    border-bottom: 300px solid transparent; */
     border-bottom: 393px solid transparent;
 }
 
 .para-2 {
-    width: calc(50% +50px);
-    height: 100%;
-    clip-path: polygon(0 0, 100% 0, 100% 0, 100% 1800px);
+    /* width: calc(50% +50px); */
+    /* height: 90%; */
+    width: calc(70% +70px);
+    height: 30%;
+    /* clip-path: polygon(0 0, 100% 0, 100% 0, 100% 1800px); */
+    clip-path: polygon(0 0, 100% 0, 100% 0, 100% 1900px);
 }
 
 
