@@ -20,6 +20,14 @@ const NavBar = () => {
                         <span className='line2 common'></span>
                         <span className='line3 common'></span>
                     </div>
+                    <ul className="drop bg-black">
+                        <li><Link to='/' style={{ color: 'rgb(212,175,55)' }}>Home</Link></li>
+                        <li><Link to='/about' style={{ color: 'rgb(212,175,55)' }}>About</Link></li>
+                        <li><Link to='/team' style={{ color: 'rgb(212,175,55)' }}>Our Teams</Link></li>
+                        <li><Link to='/service' style={{ color: 'rgb(212,175,55)' }}>Services</Link></li>
+                        <li><Link to='/contact' style={{ color: 'rgb(212,175,55)' }}>Contact</Link></li>
+
+                    </ul>
                 </label>
                 {/* <div className="dropdown">
                     <label tabIndex={0} >
