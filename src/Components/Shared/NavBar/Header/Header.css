@@ -11,7 +11,6 @@
     width: calc(70% -70px);
     height: 90%;
     background-color: black;
-    /* background-color: rgb(31, 223, 223); */
     border-right: 150px solid rgb(212, 175, 55);
     border-bottom: 393px solid transparent;
 }

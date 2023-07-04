@@ -1,6 +1,6 @@
 import React from 'react';
-import './NavBar/Header.css';
-import reel from '../../../src/Reel/All Scene_4.mp4';
+import './Header.css';
+import reel from '../../../../Reel/All Scene_4.mp4';
 
 const Header = () => {
     return (
@@ -14,8 +14,6 @@ const Header = () => {
                 <video autoPlay loop muted>
                     <source src={reel} type="video/mp4" />
                 </video>
-                {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, sit? Adipisci nemo, voluptas exercitationem doloribus ipsum sit, omnis labore unde officiis sapiente laborum ipsa praesentium architecto sed eveniet rerum tenetur asperiores doloremque modi. Rem sed natus eos culpa hic ut consequatur possimus, fugit architecto recusandae, laboriosam assumenda molestiae autem quaerat.
-                </p> */}
             </div>
         </div>
     );

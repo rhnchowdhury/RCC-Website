@@ -4,7 +4,7 @@ import Message from '../Messages/Message';
 import Team from '../Teams/Team';
 import Work from '../Works/Work';
 import Client from '../Clients/Client';
-import Header from '../../Shared/Header';
+import Header from '../../Shared/NavBar/Header/Header';
 
 const Home = () => {
     return (
