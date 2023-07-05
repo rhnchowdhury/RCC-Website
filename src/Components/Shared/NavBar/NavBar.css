@@ -2,10 +2,11 @@
     /* width: calc(50% -50px); */
     /* background-color: rgb(31, 223, 223); */
     background-color: black;
-
-    margin-right: 25.3%;
+    margin-right: 25.5%;
+    /* border-right: 35px solid rgb(212, 175, 55); */
     border-right: 35px solid rgb(212, 175, 55);
     border-bottom: 93px solid transparent;
+    /* border-bottom: 120px solid transparent; */
 }
 
 .nab {
