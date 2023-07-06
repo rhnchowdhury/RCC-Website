@@ -32,24 +32,7 @@ import img29 from '../../../Clients/total care.png';
 const Client = () => {
     return (
         <section>
-            {/* <div className="carousel w-full">
-                <div id="slide1" className="carousel-item relative w-full">
-                    <img src={img1} alt='' className="w-40" />
-                    <img src={img5} alt='' className="w-40 ml-2" />
-                    <img src={img6} alt='' className="w-40 ml-2" />
-                    <img src={img7} alt='' className="w-40 ml-2" />
-                    <img src={img2} alt='' className="w-40 ml-2" />
-                    <img src={img8} alt='' className="w-40 ml-2" />
-                    <img src={img9} alt='' className="w-40 ml-2" />
-                    <img src={img3} alt='' className="w-40 ml-2" />
-                    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-10 top-1/2">
-                        <a href="#slide5" className="btn btn-circle">❮</a>
-                        <a href="#slide2" className="btn btn-circle">❯</a>
-                    </div>
-                </div>
-            </div> */}
-
-            <div className='grid grid-cols-5 gap-4 bg-zinc-200'>
+            {/* <div className='grid grid-cols-5 gap-4 bg-zinc-200'>
                 <img src={img1} alt='' className="w-40" />
                 <img src={img2} alt='' className="w-40" />
                 <img src={img3} alt='' className="w-40" />
@@ -79,6 +62,60 @@ const Client = () => {
                 <img src={img27} alt='' className="w-40" />
                 <img src={img28} alt='' className="w-40" />
                 <img src={img29} alt='' className="w-40" />
+            </div> */}
+
+            <div className="carousel w-full h-60">
+                <div id="item1" className="carousel-item w-full">
+                    <img src={img1} alt='' className="w-60 h-32" />
+                    <img src={img2} alt='' className="w-60 h-32" />
+                    <img src={img3} alt='' className="w-60 h-32" />
+                    <img src={img4} alt='' className="w-60 h-32" />
+                    <img src={img5} alt='' className="w-60 h-32" />
+
+                </div>
+                <div id="item2" className="carousel-item w-full">
+                    <img src={img6} alt='' className="w-60 h-32" />
+                    <img src={img7} alt='' className="w-60 h-32" />
+                    <img src={img8} alt='' className="w-60 h-32" />
+                    <img src={img9} alt='' className="w-60 h-32" />
+                    <img src={img10} alt='' className="w-60 h-32" />
+                </div>
+                <div id="item3" className="carousel-item w-full">
+                    <img src={img11} alt='' className="w-60 h-32" />
+                    <img src={img12} alt='' className="w-60 h-32" />
+                    <img src={img13} alt='' className="w-60 h-32" />
+                    <img src={img14} alt='' className="w-60 h-32" />
+                    <img src={img15} alt='' className="w-60 h-32" />
+                </div>
+                <div id="item4" className="carousel-item w-full">
+                    <img src={img16} alt='' className="w-60 h-32" />
+                    <img src={img17} alt='' className="w-60 h-32" />
+                    <img src={img18} alt='' className="w-60 h-32" />
+                    <img src={img19} alt='' className="w-60 h-32" />
+                    <img src={img20} alt='' className="w-60 h-32" />
+                </div>
+                <div id="item5" className="carousel-item w-full">
+                    <img src={img21} alt='' className="w-60 h-32" />
+                    <img src={img22} alt='' className="w-60 h-32" />
+                    <img src={img23} alt='' className="w-60 h-32" />
+                    <img src={img24} alt='' className="w-60 h-32" />
+                    <img src={img25} alt='' className="w-60 h-32" />
+                </div>
+                <div id="item6" className="carousel-item w-full">
+                    <img src={img26} alt='' className="w-60 h-32" />
+                    <img src={img27} alt='' className="w-60 h-32" />
+                    <img src={img28} alt='' className="w-60 h-32" />
+                    <img src={img29} alt='' className="w-60 h-32" />
+                    <img src={img20} alt='' className="w-60 h-32" />
+                </div>
+            </div>
+            <div className="flex justify-center w-full py-2 gap-2">
+                <a href="#item1" className="btn btn-xs">1</a>
+                <a href="#item2" className="btn btn-xs">2</a>
+                <a href="#item3" className="btn btn-xs">3</a>
+                <a href="#item4" className="btn btn-xs">4</a>
+                <a href="#item5" className="btn btn-xs">5</a>
+                <a href="#item6" className="btn btn-xs">6</a>
             </div>
         </section >
     );
