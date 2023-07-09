@@ -28,106 +28,107 @@ import img26 from '../../../Clients/gazi.png';
 import img27 from '../../../Clients/securitas.png';
 import img28 from '../../../Clients/stand.png';
 import img29 from '../../../Clients/total care.png';
+import './Client.css';
 
 const Client = () => {
+    // var myIndex = 0;
+    // carousel();
+
+    // function carousel() {
+    //     var i;
+    //     var x = document.getElementsByClassName("mySlides");
+    //     for (i = 0; i < x.length; i++) {
+    //         x[i].style.display = "none";
+    //     }
+    //     myIndex++;
+    //     if (myIndex > x.length) { myIndex = 1 }
+    //     x[myIndex - 1].style.display = "block";
+    //     setTimeout(carousel, 2000); // Change image every 2 seconds
+    // }
+    let slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) { slideIndex = 1 }
+        slides[slideIndex - 1].style.display = "block";
+        setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
     return (
         <section className='my-5'>
             <h1 className="text-center text-4xl font-medium">OUR CLIENT</h1>
-            {/* <div className='grid grid-cols-5 gap-4 bg-zinc-200'>
-                <img src={img1} alt='' className="w-40" />
-                <img src={img2} alt='' className="w-40" />
-                <img src={img3} alt='' className="w-40" />
-                <img src={img4} alt='' className="w-40" />
-                <img src={img5} alt='' className="w-40" />
-                <img src={img6} alt='' className="w-40" />
-                <img src={img7} alt='' className="w-40" />
-                <img src={img8} alt='' className="w-40" />
-                <img src={img9} alt='' className="w-40" />
-                <img src={img10} alt='' className="w-40" />
-                <img src={img11} alt='' className="w-40" />
-                <img src={img12} alt='' className="w-40" />
-                <img src={img13} alt='' className="w-40" />
-                <img src={img14} alt='' className="w-40" />
-                <img src={img15} alt='' className="w-40" />
-                <img src={img16} alt='' className="w-40" />
-                <img src={img17} alt='' className="w-40" />
-                <img src={img18} alt='' className="w-40" />
-                <img src={img19} alt='' className="w-40" />
-                <img src={img20} alt='' className="w-40" />
-                <img src={img21} alt='' className="w-40" />
-                <img src={img22} alt='' className="w-40" />
-                <img src={img23} alt='' className="w-40" />
-                <img src={img24} alt='' className="w-40" />
-                <img src={img25} alt='' className="w-40" />
-                <img src={img26} alt='' className="w-40" />
-                <img src={img27} alt='' className="w-40" />
-                <img src={img28} alt='' className="w-40" />
-                <img src={img29} alt='' className="w-40" />
+            <p className='text-center'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus nihil facilis reiciendis officiis <br />
+                consectetur reprehenderit eveniet, blanditiis illo exercitationem possimus?</p>
+
+
+            {/* <div className="try">
+                <img className="mySlides" src={img1} alt='' />
+                <img className="mySlides" src={img2} alt='' />
+                <img className="mySlides" src={img3} alt='' />
+                <img className="mySlides" src={img4} alt='' />
             </div> */}
 
-            <div className='flex mx-8 mt-8'>
-                <div className='W-1/2 h-1/2'>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus blanditiis totam iure. Consequuntur odio cum magnam quidem laboriosam. Distinctio rem quaerat odio quod, quas cum. Magnam eos ipsum, cum dolor aperiam molestias et consequuntur reprehenderit ipsam, saepe voluptatibus. Nulla quae facere quidem, architecto officiis voluptatem iste. Voluptas veniam perspiciatis nostrum unde expedita rerum temporibus error autem iure perferendis tenetur a ducimus ipsum adipisci similique animi, iste, neque accusantium alias eligendi repellat quisquam. Hic accusamus ipsum eos eum adipisci iusto dolorem ex molestiae, animi voluptatibus, ducimus impedit. Quo commodi ab quasi tenetur molestiae odit, corrupti recusandae nesciunt blanditiis, cum aperiam eius aliquam nisi repellat porro nam animi modi ex sapiente, perspiciatis aut rerum! Laborum ex harum recusandae eum facilis saepe earum blanditiis omnis delectus excepturi doloremque animi, at placeat quisquam vitae in voluptas, explicabo ad, assumenda nam et accusamus error! Labore assumenda nulla cum, qui amet praesentium ipsa dicta nam ipsum.</p>
-                </div>
-
-                <div className='W-1/2 h-1/2 ml-24'>
-                    <div className="carousel w-full h-40">
-                        <div id="item1" className="carousel-item w-full">
-                            <img src={img1} alt='' className="w-24 h-16" />
-                            <img src={img2} alt='' className="w-24 h-16" />
-                            <img src={img3} alt='' className="w-24 h-16" />
-                            <img src={img4} alt='' className="w-24 h-16" />
-                            <img src={img5} alt='' className="w-24 h-16" />
-                            {/* <img src={img4} alt='' className="w-60 h-32" />
-                            <img src={img5} alt='' className="w-60 h-32" /> */}
-
-                        </div>
-                        <div id="item2" className="carousel-item w-full">
-                            <img src={img6} alt='' className="w-60 h-32" />
-                            <img src={img7} alt='' className="w-60 h-32" />
-                            <img src={img8} alt='' className="w-60 h-32" />
-                            <img src={img9} alt='' className="w-60 h-32" />
-                            <img src={img10} alt='' className="w-60 h-32" />
-                        </div>
-                        <div id="item3" className="carousel-item w-full">
-                            <img src={img11} alt='' className="w-60 h-32" />
-                            <img src={img12} alt='' className="w-60 h-32" />
-                            <img src={img13} alt='' className="w-60 h-32" />
-                            <img src={img14} alt='' className="w-60 h-32" />
-                            <img src={img15} alt='' className="w-60 h-32" />
-                        </div>
-                        <div id="item4" className="carousel-item w-full">
-                            <img src={img16} alt='' className="w-60 h-32" />
-                            <img src={img17} alt='' className="w-60 h-32" />
-                            <img src={img18} alt='' className="w-60 h-32" />
-                            <img src={img19} alt='' className="w-60 h-32" />
-                            <img src={img20} alt='' className="w-60 h-32" />
-                        </div>
-                        <div id="item5" className="carousel-item w-full">
-                            <img src={img21} alt='' className="w-60 h-32" />
-                            <img src={img22} alt='' className="w-60 h-32" />
-                            <img src={img23} alt='' className="w-60 h-32" />
-                            <img src={img24} alt='' className="w-60 h-32" />
-                            <img src={img25} alt='' className="w-60 h-32" />
-                        </div>
-                        <div id="item6" className="carousel-item w-full">
-                            <img src={img26} alt='' className="w-60 h-32" />
-                            <img src={img27} alt='' className="w-60 h-32" />
-                            <img src={img28} alt='' className="w-60 h-32" />
-                            <img src={img29} alt='' className="w-60 h-32" />
-                            <img src={img20} alt='' className="w-60 h-32" />
-                        </div>
+            <div className='mt-8 ml-24'>
+                <div className="carousel w-full h-40 try">
+                    <div id="item1" className="carousel-item w-full">
+                        <img src={img1} alt='' className="w-24 h-16 mySlides" />
+                        <img src={img2} alt='' className="w-24 h-16 ml-5 mySlides" />
+                        <img src={img3} alt='' className="w-24 h-16 mySlides" />
+                        <img src={img4} alt='' className="w-24 h-16 mySlides" />
+                        <img src={img5} alt='' className="w-24 h-16 mySlides" />
                     </div>
-                    <div className="flex justify-center w-full py-2 gap-2">
-                        <a href="#item1" className="btn btn-xs">1</a>
-                        <a href="#item2" className="btn btn-xs">2</a>
-                        <a href="#item3" className="btn btn-xs">3</a>
-                        <a href="#item4" className="btn btn-xs">4</a>
-                        <a href="#item5" className="btn btn-xs">5</a>
-                        <a href="#item6" className="btn btn-xs">6</a>
+                    <div className="w-full">
+                        <img src={img6} alt='' className="w-60 h-32 mySlides" />
+                        <img src={img7} alt='' className="w-60 h-32 mySlides" />
+                        <img src={img8} alt='' className="w-60 h-32 mySlides" />
+                        <img src={img9} alt='' className="w-60 h-32 mySlides" />
+                        <img src={img10} alt='' className="w-60 h-32 mySlides" />
+                    </div>
+                    <div id="item3" className="carousel-item w-full">
+                        <img src={img11} alt='' className="w-60 h-32 mySlides" />
+                        <img src={img12} alt='' className="w-60 h-32 mySlides" />
+                        <img src={img13} alt='' className="w-60 h-32 mySlides" />
+                        <img src={img14} alt='' className="w-60 h-32 mySlides" />
+                        <img src={img15} alt='' className="w-60 h-32 mySlides" />
+                    </div>
+                    <div id="item4" className="carousel-item w-full">
+                        <img src={img16} alt='' className="w-60 h-32 mySlides" />
+                        <img src={img17} alt='' className="w-60 h-32 mySlides" />
+                        <img src={img18} alt='' className="w-60 h-32 mySlides" />
+                        <img src={img19} alt='' className="w-60 h-32 mySlides" />
+                        <img src={img20} alt='' className="w-60 h-32 mySlides" />
+                    </div>
+                    <div id="item5" className="carousel-item w-full">
+                        <img src={img21} alt='' className="w-60 h-32 mySlides" />
+                        <img src={img22} alt='' className="w-60 h-32 mySlides" />
+                        <img src={img23} alt='' className="w-60 h-32 mySlides" />
+                        <img src={img24} alt='' className="w-60 h-32 mySlides" />
+                        <img src={img25} alt='' className="w-60 h-32 mySlides" />
+                    </div>
+                    <div id="item6" className="carousel-item w-full">
+                        <img src={img26} alt='' className="w-60 h-32 mySlides" />
+                        <img src={img27} alt='' className="w-60 h-32 mySlides" />
+                        <img src={img28} alt='' className="w-60 h-32 mySlides" />
+                        <img src={img29} alt='' className="w-60 h-32 mySlides" />
+                        <img src={img20} alt='' className="w-60 h-32 mySlides" />
                     </div>
                 </div>
+                {/* <div className="flex justify-center w-full py-2 gap-2">
+                    <a href="#item1" className="btn btn-xs">1</a>
+                    <a href="#item2" className="btn btn-xs">2</a>
+                    <a href="#item3" className="btn btn-xs">3</a>
+                    <a href="#item4" className="btn btn-xs">4</a>
+                    <a href="#item5" className="btn btn-xs">5</a>
+                    <a href="#item6" className="btn btn-xs">6</a>
+                </div> */}
             </div>
+            {/* style={{ width: "100%", display: "none" }} */}
+
         </section >
     );
 };
