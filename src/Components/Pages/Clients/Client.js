@@ -33,6 +33,8 @@ import './Client.css';
 const Client = () => {
     return (
         <section className='my-5'>
+            <h1 className="text-center text-4xl font-medium">OUR CLIENT</h1>
+            <p className='text-center my-5'>As a marketing agency, we have had the privilege of working with a diverse range of clients across various industries. Our client base consists <br /> of both  small businesses and large corporations, each with unique marketing needs and objectives.</p>
             <div className='slider'>
                 <div className='slide-track'>
                     <div className='slide'>
@@ -65,10 +67,64 @@ const Client = () => {
                     <div className='slide'>
                         <img src={img10} alt="" />
                     </div>
+                    <div className='slide'>
+                        <img src={img11} alt="" />
+                    </div>
+                    <div className='slide'>
+                        <img src={img12} alt="" />
+                    </div>
+                    <div className='slide'>
+                        <img src={img13} alt="" />
+                    </div>
+                    <div className='slide'>
+                        <img src={img14} alt="" />
+                    </div>
+                    <div className='slide'>
+                        <img src={img15} alt="" />
+                    </div>
+                    <div className='slide'>
+                        <img src={img16} alt="" />
+                    </div>
+                    <div className='slide'>
+                        <img src={img17} alt="" />
+                    </div>
+                    <div className='slide'>
+                        <img src={img18} alt="" />
+                    </div>
+                    <div className='slide'>
+                        <img src={img19} alt="" />
+                    </div>
+                    <div className='slide'>
+                        <img src={img20} alt="" />
+                    </div>
+                    <div className='slide'>
+                        <img src={img21} alt="" />
+                    </div>
+                    <div className='slide'>
+                        <img src={img22} alt="" />
+                    </div>
+                    <div className='slide'>
+                        <img src={img23} alt="" />
+                    </div>
+                    <div className='slide'>
+                        <img src={img24} alt="" />
+                    </div>
+                    <div className='slide'>
+                        <img src={img25} alt="" />
+                    </div>
+                    <div className='slide'>
+                        <img src={img26} alt="" />
+                    </div>
+                    <div className='slide'>
+                        <img src={img27} alt="" />
+                    </div>
+                    <div className='slide'>
+                        <img src={img28} alt="" />
+                    </div>
+                    <div className='slide'>
+                        <img src={img29} alt="" />
+                    </div>
                 </div>
-                {/* <h1 className="text-center text-4xl font-medium">OUR CLIENT</h1>
-            <p className='text-center'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus nihil facilis reiciendis officiis <br />
-                consectetur reprehenderit eveniet, blanditiis illo exercitationem possimus?</p> */}
             </div >
         </section>
     );

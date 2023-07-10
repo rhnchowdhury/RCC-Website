@@ -11,9 +11,9 @@ const Home = () => {
         <div>
             <Header></Header>
             <Work></Work>
-            <Team></Team>
             <Service></Service>
             <Client></Client>
+            <Team></Team>
             <Message></Message>
         </div>
     );
