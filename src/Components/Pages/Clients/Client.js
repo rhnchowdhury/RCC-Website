@@ -34,7 +34,7 @@ const Client = () => {
     return (
         <section className='my-5'>
             <h1 className="text-center text-4xl font-medium">OUR CLIENT</h1>
-            <p className='text-center my-5'>As a marketing agency, we have had the privilege of working with a diverse range of clients across various industries. Our client base consists <br /> of both  small businesses and large corporations, each with unique marketing needs and objectives.</p>
+            <p className='text-center my-5'>As a marketing agency, we have had the privilege of working with a diverse range of clients across various <br /> industries with unique marketing needs and objectives.</p>
             <div className='slider'>
                 <div className='slide-track'>
                     <div className='slide'>

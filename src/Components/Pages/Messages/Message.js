@@ -5,22 +5,22 @@ import { MdAlternateEmail } from "react-icons/md";
 
 const Message = () => {
     return (
-        <div className='bg-gray-500 py-8'>
-            <p className='text-center text-white'>Get in touch</p>
+        <div className=''>
+            <p className='text-center'>Get in touch</p>
             <div className='text-center'>
-                <h1 className='text-4xl font-medium text-white'>CONTACT US</h1>
-                <p className='text-lg text-white mt-4'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus nihil facilis reiciendis officiis <br /> consectetur reprehenderit eveniet, blanditiis illo exercitationem possimus?</p>
+                <h1 className='text-4xl font-medium '>CONTACT US</h1>
+                <p className='text-lg  mt-4'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus nihil facilis reiciendis officiis <br /> consectetur reprehenderit eveniet, blanditiis illo exercitationem possimus?</p>
             </div>
             <div className='grid grid-cols-3 m-8'>
-                <div className="card w-96 bg-zinc-600 text-primary-content">
+                <div className="card w-96 bg-black text-primary-content">
                     <div className="card-body">
                         <span><FaMobileAlt></FaMobileAlt></span>
-                        <p className='text-white'>Phone</p>
-                        <p className='text-white'>+8801777750875</p>
-                        <p className='text-white'>+8801716688069</p>
+                        <p className='' style={{ color: 'rgb(212, 175, 55) ' }}>Phone</p>
+                        <p className='' style={{ color: 'rgb(212, 175, 55) ' }}>+8801777750875</p>
+                        <p className='' style={{ color: 'rgb(212, 175, 55) ' }}>+8801716688069</p>
                     </div>
                 </div>
-                <div className="card w-96 bg-zinc-600 text-primary-content">
+                <div className="card w-96 bg-black text-primary-content">
                     <div className="card-body">
                         <span> <IoLocationSharp></IoLocationSharp> </span>
                         <p className='text-white'>Address</p>
@@ -28,7 +28,7 @@ const Message = () => {
 
                     </div>
                 </div>
-                <div className="card w-96 bg-zinc-600 text-primary-content">
+                <div className="card w-96 bg-black text-primary-content">
                     <div className="card-body">
                         <span><MdAlternateEmail></MdAlternateEmail></span>
                         <p className='text-white'>Email</p>
