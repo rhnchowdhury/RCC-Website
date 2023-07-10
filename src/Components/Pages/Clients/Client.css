@@ -1,8 +1,47 @@
-.try {
-    max-width: 500px;
+.slider {
+    height: 258px;
+    margin: auto;
+    position: relative;
+    width: 90%;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
 }
 
-.mySlides {
-    display: none;
+.slide-track {
+    display: flex;
+    width: calc(250px*6);
+    animation: scroll 40s linear infinite;
+}
+
+.slide-track:hover {
+    animation-play-state: paused;
+}
+
+.slide {
+    height: 200px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    perspective: 100px;
+}
+
+img {
     width: 100%;
+    transition: transform 1s;
+}
+
+img:hover {
+    transform: translateZ(40px);
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-250px*6));
+    }
 }
