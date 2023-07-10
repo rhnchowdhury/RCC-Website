@@ -23,16 +23,16 @@ const Message = () => {
                 <div className="card w-96 bg-black text-primary-content">
                     <div className="card-body">
                         <span> <IoLocationSharp></IoLocationSharp> </span>
-                        <p className='text-white'>Address</p>
-                        <p className='text-white'>Rangs Shawpnil, Level 5, House 2, Road ⅔, Banani, Dhaka 1213</p>
+                        <p className='' style={{ color: 'rgb(212, 175, 55) ' }}>Address</p>
+                        <p className='' style={{ color: 'rgb(212, 175, 55) ' }}>Rangs Shawpnil, Level 5, House 2, Road ⅔, Banani, Dhaka 1213</p>
 
                     </div>
                 </div>
                 <div className="card w-96 bg-black text-primary-content">
                     <div className="card-body">
                         <span><MdAlternateEmail></MdAlternateEmail></span>
-                        <p className='text-white'>Email</p>
-                        <p className='text-white'>raincloud.hr@gmail.com</p>
+                        <p className='' style={{ color: 'rgb(212, 175, 55) ' }}>Email</p>
+                        <p className='' style={{ color: 'rgb(212, 175, 55) ' }}>raincloud.hr@gmail.com</p>
                     </div>
                 </div>
             </div>
