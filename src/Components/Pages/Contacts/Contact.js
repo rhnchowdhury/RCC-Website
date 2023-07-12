@@ -10,7 +10,7 @@ const Contact = () => {
             <div className='flex mx-12'>
                 <div>
                     <div className='flex'>
-                        <span className=''><FcCellPhone className='w-8 h-12'></FcCellPhone></span>
+                        <span className='justify-center'><FcCellPhone className='w-8 h-12'></FcCellPhone></span>
                         <div className='ml-2'>
                             <p>PHONE</p>
                             <p>+8801777750875</p>

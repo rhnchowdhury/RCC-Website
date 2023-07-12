@@ -1,5 +1,6 @@
 import React from 'react';
 import { GrAnnounce } from "react-icons/gr";
+import img2 from '../../../../src/logo/engage.jpg';
 
 const Work = () => {
     return (
@@ -18,7 +19,7 @@ const Work = () => {
                 </div>
                 <div className="card w-96">
                     <div className="card-body bg-black">
-                        <span className='flex justify-center'><img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs-BiLH-Zgk_IOUqgKVpTOcaoKT61vcP892oktPhSgkzQWmRlHZ7xOEIIuh9SZQC4g-Mc&usqp=CAU' alt="content" className="w-12 h-12 " /></span>
+                        <span className='flex justify-center'><img src={img2} alt="content" className="w-12 h-12 " style={{ backgroundColor: 'rgb(212,175,55)' }} /></span>
                         <h1 className='text-black text-center text-xl font-medium' style={{ color: 'rgb(212,175,55)' }}>Brainwritting</h1>
                         <p className='text-black text-center' style={{ color: 'rgb(212,175,55)' }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
