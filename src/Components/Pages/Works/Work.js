@@ -1,6 +1,7 @@
 import React from 'react';
 import { GrAnnounce } from "react-icons/gr";
 
+
 const Work = () => {
     return (
 
@@ -17,6 +18,7 @@ const Work = () => {
                         <p className='text-black text-center' style={{ color: 'rgb(212,175,55)' }}>As a marketing agency, it is essential for us to recognize the significance of awareness in our day-to-day operations.</p>
                     </div>
                 </div>
+
                 <div className="card w-96">
                     <div className="card-body bg-black">
                         {/* <span className='flex justify-center'><PiUserSwitch className="w-12 h-12 rounded-full" style={{ backgroundColor: 'rgb(212,175,55)' }}></PiUserSwitch></span> */}
