@@ -21,9 +21,9 @@ const Work = () => {
 
                 <div className="card w-96">
                     <div className="card-body bg-black">
-                        {/* <span className='flex justify-center'><PiUserSwitch className="w-12 h-12 rounded-full" style={{ backgroundColor: 'rgb(212,175,55)' }}></PiUserSwitch></span> */}
+                        <span className='flex justify-center'><img src='https://www.slideteam.net/media/catalog/product/cache/1280x720/b/u/business_intelligence_diagram_mind_map_for_growth_powerpoint_templates_0515_Slide01.jpg' alt="content" className="w-12 h-12 rounded-full" style={{ backgroundColor: 'rgb(212,175,55)' }} /></span>
                         <h1 className='text-black text-center text-xl font-medium' style={{ color: 'rgb(212,175,55)' }}>Brainwritting</h1>
-                        <p className='text-black text-center' style={{ color: 'rgb(212,175,55)' }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p className='text-black text-center' style={{ color: 'rgb(212,175,55)' }}>Engagement is a critical factor that refers to the level of involvement, interaction, and connection between our brands and our target audience.</p>
                     </div>
                 </div>
                 <div className="card w-96">
@@ -31,7 +31,7 @@ const Work = () => {
 
                         <span className='flex justify-center'><img src='https://www.slideteam.net/media/catalog/product/cache/1280x720/b/u/business_intelligence_diagram_mind_map_for_growth_powerpoint_templates_0515_Slide01.jpg' alt="content" className="w-12 h-12 rounded-full" style={{ backgroundColor: 'rgb(212,175,55)' }} /></span>
                         <h1 className='text-black text-center text-xl font-medium' style={{ color: 'rgb(212,175,55)' }}>Mind Mapping</h1>
-                        <p className='text-black text-center' style={{ color: 'rgb(212,175,55)' }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p className='text-black text-center' style={{ color: 'rgb(212,175,55)' }}>Retention refers to our ability to retain existing clients, ensuring their continued loyalty and satisfaction with our services.</p>
                     </div>
                 </div>
             </div>
