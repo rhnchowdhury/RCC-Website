@@ -12,12 +12,12 @@ const Message = () => {
                 <p className='text-lg  mt-4'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus nihil facilis reiciendis officiis <br /> consectetur reprehenderit eveniet, blanditiis illo exercitationem possimus?</p>
             </div>
             <div className='grid grid-cols-3 m-8'>
-                <div className="card w-96 bg-black text-primary-content">
+                <div className="card w-96 bg-black text-primary-content ">
                     <div className="card-body">
-                        <span><FaMobileAlt></FaMobileAlt></span>
-                        <p className='' style={{ color: 'rgb(212, 175, 55) ' }}>Phone</p>
-                        <p className='' style={{ color: 'rgb(212, 175, 55) ' }}>+8801777750875</p>
-                        <p className='' style={{ color: 'rgb(212, 175, 55) ' }}>+8801716688069</p>
+                        <span className='flex justify-center'><FaMobileAlt className='w-12 h-10' style={{ color: 'rgb(212, 175, 55) ' }}></FaMobileAlt></span>
+                        <p className='text-center text-xl font-semibold' style={{ color: 'rgb(212, 175, 55) ' }}>Phone</p>
+                        <p className='text-center' style={{ color: 'rgb(212, 175, 55) ' }}>+8801777750875</p>
+                        <p className='text-center' style={{ color: 'rgb(212, 175, 55) ' }}>+8801716688069</p>
                     </div>
                 </div>
                 <div className="card w-96 bg-black text-primary-content">
