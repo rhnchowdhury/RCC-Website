@@ -5,11 +5,13 @@ import Team from '../Teams/Team';
 import Work from '../Works/Work';
 import Client from '../Clients/Client';
 import Header from '../../Shared/NavBar/Header/Header';
+import Creative from '../Creatives/Creative';
 
 const Home = () => {
     return (
         <div>
             <Header></Header>
+            <Creative></Creative>
             <Work></Work>
             <Service></Service>
             <Client></Client>

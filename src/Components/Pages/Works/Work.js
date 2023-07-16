@@ -4,7 +4,6 @@ import { GrAnnounce } from "react-icons/gr";
 
 const Work = () => {
     return (
-
         <section>
             <p className='text-center'>WE ARE AWESOME AGENCY</p>
             <div className='text-center mt-2'>
@@ -18,7 +17,6 @@ const Work = () => {
                         <p className='text-black text-center' style={{ color: 'rgb(212,175,55)' }}>As a marketing agency, it is essential for us to recognize the significance of awareness in our day-to-day operations.</p>
                     </div>
                 </div>
-
                 <div className="card w-96">
                     <div className="card-body bg-black">
                         <span className='flex justify-center'><img src='https://www.slideteam.net/media/catalog/product/cache/1280x720/b/u/business_intelligence_diagram_mind_map_for_growth_powerpoint_templates_0515_Slide01.jpg' alt="content" className="w-12 h-12 rounded-full" style={{ backgroundColor: 'rgb(212,175,55)' }} /></span>

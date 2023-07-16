@@ -38,7 +38,8 @@ const Message = () => {
             </div>
             <div className='ml-32 space-y-5 my-5'>
                 <div className='space-x-5'>
-                    <input type="text" placeholder="Name" className="input border-0 w-full max-w-lg" />
+                    <input type="text" placeholder="Your Name" className="input input-bordered w-full max-w-xs" />
+                    <input type="text" placeholder="Name" className="input  w-full bg-white" />
                     <input type="text" placeholder="Name" className="input input-bordered w-full max-w-lg" />
                 </div>
                 <div>
