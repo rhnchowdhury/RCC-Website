@@ -22,17 +22,17 @@ const Message = () => {
                 </div>
                 <div className="card w-96 bg-black text-primary-content">
                     <div className="card-body">
-                        <span> <IoLocationSharp></IoLocationSharp> </span>
-                        <p className='' style={{ color: 'rgb(212, 175, 55) ' }}>Address</p>
-                        <p className='' style={{ color: 'rgb(212, 175, 55) ' }}>Rangs Shawpnil, Level 5, House 2, Road ⅔, Banani, Dhaka 1213</p>
+                        <span className='flex justify-center'><IoLocationSharp className='w-12 h-10' style={{ color: 'rgb(212, 175, 55) ' }}></IoLocationSharp> </span>
+                        <p className='text-center' style={{ color: 'rgb(212, 175, 55) ' }}>Address</p>
+                        <p className='text-center' style={{ color: 'rgb(212, 175, 55) ' }}>Rangs Shawpnil, Level 5, House 2,  <br /> Road ⅔, Banani, Dhaka 1213</p>
 
                     </div>
                 </div>
                 <div className="card w-96 bg-black text-primary-content">
                     <div className="card-body">
-                        <span><MdAlternateEmail></MdAlternateEmail></span>
-                        <p className='' style={{ color: 'rgb(212, 175, 55) ' }}>Email</p>
-                        <p className='' style={{ color: 'rgb(212, 175, 55) ' }}>raincloud.hr@gmail.com</p>
+                        <span className='flex justify-center'><MdAlternateEmail className='w-12 h-10' style={{ color: 'rgb(212, 175, 55) ' }}></MdAlternateEmail></span>
+                        <p className='text-center' style={{ color: 'rgb(212, 175, 55) ' }}>Email</p>
+                        <p className='text-center' style={{ color: 'rgb(212, 175, 55) ' }}>raincloud.hr@gmail.com</p>
                     </div>
                 </div>
             </div>
