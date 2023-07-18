@@ -36,11 +36,14 @@ const Message = () => {
                     </div>
                 </div>
             </div>
-            <div className='ml-32 space-y-5 my-5'>
-                <div className='space-x-5'>
+            <div className=' my-5'>
+                <div className=''>
+                    <input type="text" id="inputField" />
+
                     <input type="text" placeholder="Your Name" className="input input-bordered w-full max-w-xs" />
                     <input type="text" placeholder="Name" className="input  w-full bg-white" />
                     <input type="text" placeholder="Name" className="input input-bordered w-full max-w-lg" />
+                    <input type="text" placeholder="Your Name" className="input input-bordered w-full max-w-xs" />
                 </div>
                 <div>
                     <input type="text" placeholder="Email" className="input input-bordered w-full max-w-5xl" />
