@@ -23,7 +23,7 @@ const Message = () => {
                 <div className="card w-96 bg-black text-primary-content">
                     <div className="card-body">
                         <span className='flex justify-center'><IoLocationSharp className='w-12 h-10' style={{ color: 'rgb(212, 175, 55) ' }}></IoLocationSharp> </span>
-                        <p className='text-center' style={{ color: 'rgb(212, 175, 55) ' }}>Address</p>
+                        <p className='text-center text-xl font-semibold' style={{ color: 'rgb(212, 175, 55) ' }}>Address</p>
                         <p className='text-center' style={{ color: 'rgb(212, 175, 55) ' }}>Rangs Shawpnil, Level 5, House 2,  <br /> Road ⅔, Banani, Dhaka 1213</p>
 
                     </div>
@@ -31,7 +31,7 @@ const Message = () => {
                 <div className="card w-96 bg-black text-primary-content">
                     <div className="card-body">
                         <span className='flex justify-center'><MdAlternateEmail className='w-12 h-10' style={{ color: 'rgb(212, 175, 55) ' }}></MdAlternateEmail></span>
-                        <p className='text-center' style={{ color: 'rgb(212, 175, 55) ' }}>Email</p>
+                        <p className='text-center text-xl font-semibold' style={{ color: 'rgb(212, 175, 55) ' }}>Email</p>
                         <p className='text-center' style={{ color: 'rgb(212, 175, 55) ' }}>raincloud.hr@gmail.com</p>
                     </div>
                 </div>
@@ -48,10 +48,10 @@ const Message = () => {
                 <div>
                     <input type="text" placeholder="Email" className="input input-bordered w-full max-w-5xl" />
                 </div>
-                <div>
+                <div className='ml-36'>
                     <textarea placeholder="Message" className="textarea textarea-bordered textarea-lg w-full h-56 max-w-5xl" ></textarea>
                 </div>
-                <div className='ml-96'>
+                <div className='' style={{ marginLeft: '580px', marginTop: '2%' }}>
                     <button className="btn btn-outline">Send Message</button>
                 </div>
             </div>

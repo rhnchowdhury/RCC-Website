@@ -4,8 +4,7 @@
     /* height: 500px; */
     height: 400px;
     width: 1200px;
-    /* width: 100%; */
-    background-color: rgb(212, 175, 55);
+    /* background-color: rgb(212, 175, 55); */
     display: flex;
 }
 
@@ -15,7 +14,9 @@
     width: calc(50% -50px);
     height: 60%;
     background-color: black;
-    border-right: 152px solid rgb(212, 175, 55);
+    /* border-right: 152px solid rgb(212, 175, 55); */
+    border-right: 152px solid white;
+
     /* border-right: 200px solid rgb(212, 175, 55); */
     /* border-bottom: 300px solid transparent; */
     border-bottom: 393px solid transparent;
