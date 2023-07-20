@@ -17,7 +17,6 @@ import img13 from '../../../teams/Sharif-Hossen.png';
 const Team = () => {
     return (
         <section className='m-20'>
-            <input type="text" />
             <p className='text-center'>CREATIVE MINDS</p>
             <div className='text-center'>
                 <h1 className=" text-4xl font-medium">Our Team</h1>
