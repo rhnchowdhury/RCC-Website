@@ -17,10 +17,12 @@ import img13 from '../../../teams/Sharif-Hossen.png';
 const Team = () => {
     return (
         <section className='m-20'>
+            <input type="text" />
             <p className='text-center'>CREATIVE MINDS</p>
             <div className='text-center'>
                 <h1 className=" text-4xl font-medium">Our Team</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio cumque <br /> tempora hic optio quasi assumenda.</p>
+                {/* <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio cumque <br /> tempora hic optio quasi assumenda.</p> */}
+                <p className='mt-4'>We pride ourselves on being a dynamic and innovative group of professionals dedicated <br /> to delivering exceptional results for our clients.</p>
             </div>
             {/* <div>
                 <div className='grid grid-cols-4 gap-4'>
@@ -35,7 +37,7 @@ const Team = () => {
             </div> */}
 
 
-            <div className="carousel w-full">
+            <div className="carousel w-full mt-5">
                 <div id="slide1" className="carousel-item relative w-full">
                     <img src={img1} alt='' className="w-96" />
                     <img src={img2} alt='' className="w-96 ml-2" />
