@@ -83,7 +83,7 @@ const Client = () => {
                         <img src={img15} alt="" />
                     </div>
                     <div className='slide'>
-                        <img src={img16} alt="" />
+                        <img src={img16} alt="" className='bg-slate-300' />
                     </div>
                     <div className='slide'>
                         <img src={img17} alt="" />
@@ -92,13 +92,13 @@ const Client = () => {
                         <img src={img18} alt="" />
                     </div>
                     <div className='slide'>
-                        <img src={img19} alt="" />
+                        <img src={img19} alt="" className='img-change' />
                     </div>
                     <div className='slide'>
-                        <img src={img20} alt="" />
+                        <img src={img20} alt="" className='img-change' />
                     </div>
                     <div className='slide'>
-                        <img src={img21} alt="" />
+                        <img src={img21} alt="" className='img-change' />
                     </div>
                     <div className='slide'>
                         <img src={img22} alt="" />
@@ -110,7 +110,7 @@ const Client = () => {
                         <img src={img24} alt="" />
                     </div>
                     <div className='slide'>
-                        <img src={img25} alt="" />
+                        <img src={img25} alt="" className='bg-slate-300' />
                     </div>
                     <div className='slide'>
                         <img src={img26} alt="" />

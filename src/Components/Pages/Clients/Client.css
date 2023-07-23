@@ -33,7 +33,7 @@ img {
 }
 
 img:hover {
-    transform: translateZ(40px);
+    transform: translateZ(20px);
 }
 
 @keyframes scroll {
@@ -44,4 +44,8 @@ img:hover {
     100% {
         transform: translateX(calc(-250px*20));
     }
+}
+
+.img-change {
+    height: 150px;
 }
