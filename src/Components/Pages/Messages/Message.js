@@ -4,6 +4,7 @@ import { IoLocationSharp } from "react-icons/io5";
 import { MdAlternateEmail } from "react-icons/md";
 
 const Message = () => {
+
     return (
         <div className=''>
             <p className='text-center'>Get in touch</p>
@@ -38,11 +39,7 @@ const Message = () => {
             </div>
             <div className=' my-5'>
                 <div className=''>
-                    <input type="text" id="inputField" />
-
-                    <input type="text" placeholder="Your Name" className="input input-bordered w-full max-w-xs" />
-                    <input type="text" placeholder="Name" className="input  w-full bg-white" />
-                    <input type="text" placeholder="Name" className="input input-bordered w-full max-w-lg" />
+                    <input type="text" placeholder="Type here" className="input input-bordered w-full max-w-xs" />
                     <input type="text" placeholder="Your Name" className="input input-bordered w-full max-w-xs" />
                 </div>
                 <div>

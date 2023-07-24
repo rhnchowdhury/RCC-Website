@@ -83,7 +83,7 @@ const Client = () => {
                         <img src={img15} alt="" />
                     </div>
                     <div className='slide'>
-                        <img src={img16} alt="" className='bg-slate-300' />
+                        <img src={img16} alt="" className='bg-red-400' />
                     </div>
                     <div className='slide'>
                         <img src={img17} alt="" />

@@ -9,8 +9,8 @@ const Contact = () => {
         <section className='my-10'>
             <div className='flex mx-12'>
                 <div>
-                    <div className='justify-items-center'>
-                        <span className='ml-36'><FcCellPhone className='w-8 h-12 ml-32'></FcCellPhone></span>
+                    <div className='flex mt-8'>
+                        <span className=''><FcCellPhone className='w-8 h-12'></FcCellPhone></span>
                         <div className='ml-2'>
                             <p>PHONE</p>
                             <p>+8801777750875</p>
