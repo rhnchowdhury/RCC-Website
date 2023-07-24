@@ -3,10 +3,10 @@ import img1 from '../../../teams/Azfar-Rahman.png'
 
 const ServicesAll = () => {
     return (
-        <section>
+        <section className='my-5'>
             <div className="hero">
                 <div className="hero-content flex-col lg:flex-row">
-                    <img src={img1} alt='' className="max-w-md rounded-lg shadow-2xl" />
+                    <img src={img1} alt='' className="max-w-md rounded-lg" />
                     <div className='ml-12'>
                         <h1 className="text-5xl font-bold">Media Buying:</h1>
                         <p className="mt-12">Digital Media buying involves researching, selecting, negotiating, and executing media buys to reach a specific target audience and achieve the desired marketing goals.
