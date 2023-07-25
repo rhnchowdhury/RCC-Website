@@ -48,7 +48,7 @@ const Message = () => {
                 <div className='ml-36'>
                     <textarea placeholder="Message" className="textarea textarea-bordered textarea-lg w-full h-56 max-w-5xl" ></textarea>
                 </div>
-                <div className='' >
+                <div className='flex justify-center' >
                     <button className="btn btn-outline">Send Message</button>
                 </div>
                 {/* style={{ marginLeft: '580px', marginTop: '2%' }} */}
