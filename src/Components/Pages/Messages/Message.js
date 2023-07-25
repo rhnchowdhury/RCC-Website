@@ -37,13 +37,13 @@ const Message = () => {
                     </div>
                 </div>
             </div>
-            <div className=' my-5' >
-                <div className='ml-36' >
-                    <input type="text" placeholder="Type here" className="input input-bordered w-full max-w-lg" />
-                    <input type="text" placeholder="Your Name" className="input input-bordered w-full max-w-lg" />
+            <div className=' my-5 space-y-4' >
+                <div className='ml-36 space-x-1' >
+                    <input type="text" placeholder="First Name" className="input input-bordered w-full max-w-lg" />
+                    <input type="text" placeholder="Last Name" className="input input-bordered w-full max-w-lg" />
                 </div>
                 <div className='ml-36'>
-                    <input type="text" placeholder="Email" className="input input-bordered w-full max-w-5xl" />
+                    <input type="text" placeholder="Your Email" className="input input-bordered w-full max-w-5xl" />
                 </div>
                 <div className='ml-36'>
                     <textarea placeholder="Message" className="textarea textarea-bordered textarea-lg w-full h-56 max-w-5xl" ></textarea>
