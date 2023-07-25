@@ -37,20 +37,21 @@ const Message = () => {
                     </div>
                 </div>
             </div>
-            <div className=' my-5'>
-                <div className=''>
-                    <input type="text" placeholder="Type here" className="input input-bordered w-full max-w-xs" />
-                    <input type="text" placeholder="Your Name" className="input input-bordered w-full max-w-xs" />
+            <div className=' my-5' >
+                <div className='ml-36' >
+                    <input type="text" placeholder="Type here" className="input input-bordered w-full max-w-lg" />
+                    <input type="text" placeholder="Your Name" className="input input-bordered w-full max-w-lg" />
                 </div>
-                <div>
+                <div className='ml-36'>
                     <input type="text" placeholder="Email" className="input input-bordered w-full max-w-5xl" />
                 </div>
                 <div className='ml-36'>
                     <textarea placeholder="Message" className="textarea textarea-bordered textarea-lg w-full h-56 max-w-5xl" ></textarea>
                 </div>
-                <div className='' style={{ marginLeft: '580px', marginTop: '2%' }}>
+                <div className='' >
                     <button className="btn btn-outline">Send Message</button>
                 </div>
+                {/* style={{ marginLeft: '580px', marginTop: '2%' }} */}
             </div>
         </div>
     );
