@@ -37,7 +37,7 @@ const Message = () => {
                     </div>
                 </div>
             </div>
-            <div className=' my-5 space-y-4' >
+            <div className=' my-5 space-y-4'>
                 <div className='ml-36 space-x-1' >
                     <input type="text" placeholder="First Name" className="input input-bordered w-full max-w-lg" />
                     <input type="text" placeholder="Last Name" className="input input-bordered w-full max-w-lg" />
