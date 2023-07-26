@@ -1,0 +1,60 @@
+.img-edit {
+    position: relative;
+
+}
+
+.overlay {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    background-color: rgb(92, 95, 236, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+
+.social-icon {
+    background-color: #FFFFFF;
+    color-scheme: #252525;
+    border-radius: 1500px;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+}
+
+.logo:hover {
+    /* color: #FFFFFF; */
+    background-color: #f15fa3;
+    transition: all ease 0.3s;
+    /* visibility: visible; */
+}
+
+.logo {
+    width: 5rem;
+    height: 3rem;
+}
+
+/* .overlay {
+    visibility: hidden;
+} */
+
+.img-edit:hover .overlay {
+    visibility: visible;
+    animation: fade 0.5s;
+    margin-left: 6.5px;
+
+    margin-right: -6.5px;
+    /* margin-right: 1%; */
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
