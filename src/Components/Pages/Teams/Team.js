@@ -1,5 +1,6 @@
 import React from 'react';
 import { BsLinkedin } from "react-icons/bs";
+import { SiGmail } from "react-icons/si";
 import img1 from '../../../teams/Azfar-Rahman.png';
 import img2 from '../../../teams/Fahmeda-Gulzar.png';
 import img3 from '../../../teams/Golam-Isnad-Ahmed.png';
@@ -33,9 +34,8 @@ const Team = () => {
                     <div className='img-edit'>
                         <img src={img2} alt='' className="w-96 ml-2" />
                         <div className='overlay'>
-                            <Link className=''><BsLinkedin className=' logo social-icon'></BsLinkedin></Link>
-                            {/* <span className=' w-8 h-12'>
-                            </span> */}
+                            <Link className=''><BsLinkedin className=' social-icon'></BsLinkedin></Link>
+                            <Link className=''><SiGmail className=' logo social-icon'></SiGmail></Link>
                         </div>
                     </div>
                     <img src={img3} alt='' className="w-96 ml-2" />

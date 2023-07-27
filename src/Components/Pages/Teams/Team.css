@@ -18,23 +18,21 @@
 }
 
 .social-icon {
-    background-color: #FFFFFF;
-    color-scheme: #252525;
-    border-radius: 1500px;
-    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
-}
-
-.logo:hover {
-    /* color: #FFFFFF; */
-    background-color: #f15fa3;
-    transition: all ease 0.3s;
-    /* visibility: visible; */
-}
-
-.logo {
     width: 5rem;
     height: 3rem;
+    background-color: fuchsia;
+    /* background-color: #FFFFFF; */
+    /* color-scheme: #252525; */
+    /* border-radius: 1500px; */
+    /* box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2); */
 }
+
+.social-icon:hover {
+    color: #FFFFFF;
+    background-color: #f15fa3;
+    transition: all ease 0.3s;
+}
+
 
 /* .overlay {
     visibility: hidden;
@@ -44,9 +42,6 @@
     visibility: visible;
     animation: fade 0.5s;
     margin-left: 6.5px;
-
-    margin-right: -6.5px;
-    /* margin-right: 1%; */
 }
 
 @keyframes fade {
