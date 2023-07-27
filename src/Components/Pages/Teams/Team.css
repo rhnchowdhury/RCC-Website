@@ -17,26 +17,25 @@
     visibility: hidden;
 }
 
+.icon {
+    display: flex;
+}
+
 .social-icon {
     width: 5rem;
     height: 3rem;
-    background-color: fuchsia;
+    color: #ff1744;
     /* background-color: #FFFFFF; */
     /* color-scheme: #252525; */
-    /* border-radius: 1500px; */
+    /* border-radius: 50%; */
     /* box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2); */
 }
 
 .social-icon:hover {
     color: #FFFFFF;
-    background-color: #f15fa3;
+    /* background-color: #f15fa3; */
     transition: all ease 0.3s;
 }
-
-
-/* .overlay {
-    visibility: hidden;
-} */
 
 .img-edit:hover .overlay {
     visibility: visible;

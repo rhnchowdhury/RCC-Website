@@ -34,8 +34,11 @@ const Team = () => {
                     <div className='img-edit'>
                         <img src={img2} alt='' className="w-96 ml-2" />
                         <div className='overlay'>
-                            <Link className=''><BsLinkedin className=' social-icon'></BsLinkedin></Link>
-                            <Link className=''><SiGmail className=' logo social-icon'></SiGmail></Link>
+                            <div className=''>
+                                {/* <a href="https://templates.envytheme.com/redmix/default/index-one.html"><BsLinkedin ></BsLinkedin></a> */}
+                                <Link to='https://templates.envytheme.com/redmix/default/index-one.html' className=''><BsLinkedin className='social-icon'></BsLinkedin></Link>
+                                <Link className=''><SiGmail className=' social-icon '></SiGmail></Link>
+                            </div>
                         </div>
                     </div>
                     <img src={img3} alt='' className="w-96 ml-2" />
