@@ -22,18 +22,15 @@
 }
 
 .social-icon {
-    width: 5rem;
-    height: 3rem;
+    width: 4rem;
+    height: 2rem;
+    column-gap: 100px;
+    row-gap: 20%;
     color: #ff1744;
-    /* background-color: #FFFFFF; */
-    /* color-scheme: #252525; */
-    /* border-radius: 50%; */
-    /* box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2); */
 }
 
 .social-icon:hover {
     color: #FFFFFF;
-    /* background-color: #f15fa3; */
     transition: all ease 0.3s;
 }
 
