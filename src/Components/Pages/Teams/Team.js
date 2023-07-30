@@ -48,7 +48,15 @@ const Team = () => {
                             </div>
                         </div>
                     </div>
-                    <img src={img3} alt='' className="w-96 ml-2" />
+                    <div className='img-edit'>
+                        <img src={img3} alt='' className="w-96 ml-2" />
+                        <div className='overlay'>
+                            <div>
+                                <Link to='https://www.linkedin.com/in/golam-isnad-ahmed-21433621a/' target="_blank"><BsLinkedin className='social-icon'></BsLinkedin></Link>
+                                <Link to='https://mail.google.com/mail/fahmeda.raincloud@gmail.com' target='_blank'><SiGmail className=' social-icon '></SiGmail></Link>
+                            </div>
+                        </div>
+                    </div>
                     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-10 top-1/2">
                         <a href="#slide5" className="btn btn-circle">❮</a>
                         <a href="#slide2" className="btn btn-circle">❯</a>
