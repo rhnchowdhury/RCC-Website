@@ -63,7 +63,9 @@ const Team = () => {
                     </div>
                 </div>
                 <div id="slide2" className="carousel-item relative w-full">
-                    <img src={img4} alt='' className="w-96" />
+                    <div className='img-edit'>
+                        <img src={img4} alt='' className="w-96" />
+                    </div>
                     <img src={img5} alt='' className="w-96 ml-2" />
                     <img src={img6} alt='' className="w-96 ml-2" />
                     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-10 top-1/2">
