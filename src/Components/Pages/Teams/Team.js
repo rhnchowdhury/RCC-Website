@@ -30,14 +30,21 @@ const Team = () => {
 
             <div className="carousel w-full mt-5">
                 <div id="slide1" className="carousel-item relative w-full">
-                    <img src={img1} alt='' className="w-96" />
+                    <div className='img-edit'>
+                        <img src={img1} alt='' className="w-96" />
+                        <div className='overlay'>
+                            <div>
+                                <Link to='https://www.linkedin.com/in/azfar-rahman-76ba2813b/' target="_blank"><BsLinkedin className='social-icon'></BsLinkedin></Link>
+                                <Link to='https://mail.google.com/mail/azfar.rahman@raincloudcomms.com' target='_blank'><SiGmail className=' social-icon '></SiGmail></Link>
+                            </div>
+                        </div>
+                    </div>
                     <div className='img-edit'>
                         <img src={img2} alt='' className="w-96 ml-2" />
                         <div className='overlay'>
-                            <div className=''>
+                            <div>
                                 <Link to='https://www.linkedin.com/in/fahmeda-gulzar/' target="_blank"><BsLinkedin className='social-icon'></BsLinkedin></Link>
                                 <Link to='https://mail.google.com/mail/fahmeda.raincloud@gmail.com' target='_blank'><SiGmail className=' social-icon '></SiGmail></Link>
-
                             </div>
                         </div>
                     </div>

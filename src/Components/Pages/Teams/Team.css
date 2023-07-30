@@ -35,7 +35,7 @@
 .img-edit:hover .overlay {
     visibility: visible;
     animation: fade 0.5s;
-    margin-left: 6.5px;
+    /* margin-left: 6.5px; */
 }
 
 @keyframes fade {
