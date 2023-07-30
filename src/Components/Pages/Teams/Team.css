@@ -24,9 +24,7 @@
 .social-icon {
     width: 4rem;
     height: 2rem;
-    column-gap: 100px;
-    row-gap: 20%;
-    color: #ff1744;
+    color: rgb(212, 175, 55);
 }
 
 .social-icon:hover {

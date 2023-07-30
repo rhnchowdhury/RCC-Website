@@ -35,8 +35,8 @@ const Team = () => {
                         <img src={img2} alt='' className="w-96 ml-2" />
                         <div className='overlay'>
                             <div className=''>
-                                <Link to='https://templates.envytheme.com/redmix/default/index-one.html' className=''><BsLinkedin className='social-icon'></BsLinkedin></Link>
-                                <Link className=''><SiGmail className=' social-icon '></SiGmail></Link>
+                                <Link to='https://www.linkedin.com/in/fahmeda-gulzar/' target="_blank"><BsLinkedin className='social-icon'></BsLinkedin></Link>
+                                <Link to='https://mail.google.com/mail/fahmeda.raincloud@gmail.com' target='_blank'><SiGmail className=' social-icon '></SiGmail></Link>
 
                             </div>
                         </div>
