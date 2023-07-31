@@ -43,7 +43,7 @@ const Team = () => {
                         <div className='overlay'>
                             <div>
                                 <Link to='https://www.linkedin.com/in/fahmeda-gulzar/' target="_blank"><BsLinkedin className='social-icon'></BsLinkedin></Link>
-                                <Link to='https://mail.google.com/mail/fahmeda.raincloud@gmail.com' target='_blank'><SiGmail className=' social-icon '></SiGmail></Link>
+                                <Link to='https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCJfrtXFRCxjwMlmxbBttLJVpKlwhjwnTbbhZQgxRTFHBBjTldDFPZhBDRwswlQBHnttwfLB' target='_blank'><SiGmail className=' social-icon '></SiGmail></Link>
                             </div>
                         </div>
                     </div>

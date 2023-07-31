@@ -12,9 +12,9 @@ const Header = () => {
             </div>
 
             <div className='para-2'>
-                <video autoPlay loop muted>
+                <video autoPlay loop>
+                    {/* <video autoPlay loop style={{ maxWidth: '700px' }}> */}
                     <source src={reel} type="video/mp4" />
-                    {/* style={{ maxWidth: '700px' }} */}
                 </video>
             </div>
         </div>
