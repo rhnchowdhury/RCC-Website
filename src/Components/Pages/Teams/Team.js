@@ -29,7 +29,7 @@ const Team = () => {
             </div>
 
             <div className="carousel w-full mt-5">
-                <div id="slide1" className="carousel-item relative w-full">
+                <div id="slide1" className="carousel-item relative w-full space-x-1.5">
                     <div className='img-edit'>
                         <img src={img1} alt='' className="w-96" />
                         <div className='overlay'>
@@ -40,7 +40,7 @@ const Team = () => {
                         </div>
                     </div>
                     <div className='img-edit'>
-                        <img src={img2} alt='' className="w-96 ml-2" />
+                        <img src={img2} alt='' className="w-96" />
                         <div className='overlay'>
                             <div>
                                 <Link to='https://www.linkedin.com/in/fahmeda-gulzar/' target="_blank"><BsLinkedin className='social-icon'></BsLinkedin></Link>
@@ -49,7 +49,7 @@ const Team = () => {
                         </div>
                     </div>
                     <div className='img-edit'>
-                        <img src={img3} alt='' className="w-96 ml-2" />
+                        <img src={img3} alt='' className="w-96" />
                         <div className='overlay'>
                             <div>
                                 <Link to='https://www.linkedin.com/in/golam-isnad-ahmed-21433621a/' target="_blank"><BsLinkedin className='social-icon'></BsLinkedin></Link>
