@@ -80,9 +80,9 @@ const Team = () => {
                         <a href="#slide3" className="btn btn-circle">❯</a>
                     </div>
                 </div>
-                <div id="slide3" className="carousel-item relative w-full">
+                <div id="slide3" className="carousel-item relative w-full space-x-1.5">
                     <div className='img-edit'>
-                        <img src={img12} alt='' className="w-96 ml-2" />
+                        <img src={img12} alt='' className="w-96" />
                         <div className='overlay'>
                             <div>
                                 <Link to='https://www.linkedin.com/in/sadman-al-sadaf-7b700a110/' target="_blank"><BsLinkedin className='social-icon'></BsLinkedin></Link>
@@ -90,9 +90,15 @@ const Team = () => {
                             </div>
                         </div>
                     </div>
-                    <img src={img7} alt='' className="w-96" />
-
-
+                    <div className='img-edit'>
+                        <img src={img7} alt='' className="w-96" />
+                        <div className='overlay'>
+                            <div>
+                                <Link to='https://www.linkedin.com/in/ibtid-m-86ab39216/' target="_blank"><BsLinkedin className='social-icon'></BsLinkedin></Link>
+                                <Link to='https://mail.google.com/ibtid@raincloudcomms.com' target='_blank'><SiGmail className=' social-icon '></SiGmail></Link>
+                            </div>
+                        </div>
+                    </div>
                     <div className='img-edit'>
                         <img src={img6} alt='' className="w-96" />
                         <div className='overlay'>
