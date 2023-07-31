@@ -113,10 +113,26 @@ const Team = () => {
                         <a href="#slide4" className="btn btn-circle">❯</a>
                     </div>
                 </div>
-                <div id="slide4" className="carousel-item relative w-full">
-                    <img src={img10} alt='' className="w-96" />
-                    <img src={img11} alt='' className="w-96 ml-2" />
-                    <img src={img9} alt='' className="w-96 ml-2" />
+                <div id="slide4" className="carousel-item relative w-full space-x-1.5">
+                    <div className='img-edit'>
+                        <img src={img10} alt='' className="w-96" />
+                        <div className='overlay'>
+                            <div>
+                                <Link to='https://www.linkedin.com/in/redwanur-rahman-rafi/' target="_blank"><BsLinkedin className='social-icon'></BsLinkedin></Link>
+                                <Link to='https://mail.google.com/rafi.raincloud@gmail.com' target='_blank'><SiGmail className=' social-icon '></SiGmail></Link>
+                            </div>
+                        </div>
+                    </div>
+                    <img src={img11} alt='' className="w-96" />
+                    <div className='img-edit'>
+                        <img src={img9} alt='' className="w-96" />
+                        <div className='overlay'>
+                            <div>
+                                <Link to='https://www.linkedin.com/in/rahman-raad/' target="_blank"><BsLinkedin className='social-icon'></BsLinkedin></Link>
+                                <Link to='https://mail.google.com/rahmanraincloud3@gmail.com' target='_blank'><SiGmail className=' social-icon '></SiGmail></Link>
+                            </div>
+                        </div>
+                    </div>
                     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-10 top-1/2">
                         <a href="#slide3" className="btn btn-circle">❮</a>
                         <a href="#slide5" className="btn btn-circle">❯</a>
