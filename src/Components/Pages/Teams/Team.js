@@ -138,10 +138,18 @@ const Team = () => {
                         <a href="#slide5" className="btn btn-circle">❯</a>
                     </div>
                 </div>
-                <div id="slide5" className="carousel-item relative w-full">
-                    <img src={img13} alt='' className="w-96" />
-                    <img src={img2} alt='' className="w-96 ml-2" />
-                    <img src={img2} alt='' className="w-96 ml-2" />
+                <div id="slide5" className="carousel-item relative w-full space-x-1.5">
+                    <div className='img-edit'>
+                        <img src={img13} alt='' className="w-96" />
+                        <div className='overlay'>
+                            <div>
+                                <Link to='https://www.linkedin.com/in/sharif-hossain-25357a237/' target="_blank"><BsLinkedin className='social-icon'></BsLinkedin></Link>
+                                <Link to='https://mail.google.com/sharif@raincloudcomms.com' target='_blank'><SiGmail className=' social-icon '></SiGmail></Link>
+                            </div>
+                        </div>
+                    </div>
+                    <img src={img2} alt='' className="w-96" />
+                    <img src={img2} alt='' className="w-96" />
                     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-10 top-1/2">
                         <a href="#slide4" className="btn btn-circle">❮</a>
                         <a href="#slide1" className="btn btn-circle">❯</a>
