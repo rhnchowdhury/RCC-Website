@@ -34,7 +34,7 @@ const Team = () => {
                         <div className='overlay'>
                             <div>
                                 <Link to='https://www.linkedin.com/in/azfar-rahman-76ba2813b/' target="_blank"><BsLinkedin className='social-icon'></BsLinkedin></Link>
-                                <Link to='https://mail.google.com/mail/azfar.rahman@raincloudcomms.com' target='_blank'><SiGmail className=' social-icon '></SiGmail></Link>
+                                <Link to='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=azfar.rahman@raincloudcomms.com' target='_blank'><SiGmail className=' social-icon '></SiGmail></Link>
                             </div>
                         </div>
                     </div>
@@ -43,8 +43,7 @@ const Team = () => {
                         <div className='overlay'>
                             <div>
                                 <Link to='https://www.linkedin.com/in/fahmeda-gulzar/' target="_blank"><BsLinkedin className='social-icon'></BsLinkedin></Link>
-                                <Link to='https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCJfrtXFRCxjwMlmxbBttLJVpKlwhjwnTbbhZQgxRTFHBBjTldDFPZhBDRwswlQBHnttwfLB' target='_blank'><SiGmail className=' social-icon '></SiGmail></Link>
-                            </div>
+                                <Link to='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=fahmeda.raincloud@gmail.com' target='_blank'><SiGmail className=' social-icon '></SiGmail></Link>                            </div>
                         </div>
                     </div>
                     <div className='img-edit'>
@@ -52,7 +51,7 @@ const Team = () => {
                         <div className='overlay'>
                             <div>
                                 <Link to='https://www.linkedin.com/in/golam-isnad-ahmed-21433621a/' target="_blank"><BsLinkedin className='social-icon'></BsLinkedin></Link>
-                                <Link to='https://mail.google.com/mail/isnad.raincloud@gmail.com' target='_blank'><SiGmail className=' social-icon '></SiGmail></Link>
+                                <Link to='hhttps://mail.google.com/mail/?view=cm&fs=1&tf=1&to=isnad.raincloud@gmail.com' target='_blank'><SiGmail className=' social-icon '></SiGmail></Link>
                             </div>
                         </div>
                     </div>
