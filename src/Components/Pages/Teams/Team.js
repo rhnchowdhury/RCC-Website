@@ -66,7 +66,7 @@ const Team = () => {
                         <div className='overlay'>
                             <div>
                                 <Link to='https://www.linkedin.com/in/yeasin-ahmed-a2893910a/' target="_blank"><BsLinkedin className='social-icon'></BsLinkedin></Link>
-                                <Link to='https://mail.google.com/yeasin.raincloud@gmail.com' target='_blank'><SiGmail className=' social-icon '></SiGmail></Link>
+                                <Link to='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=yeasin.raincloud@gmail.com' target='_blank'><SiGmail className=' social-icon '></SiGmail></Link>
                             </div>
                         </div>
                     </div>
@@ -75,7 +75,7 @@ const Team = () => {
                         <div className='overlay'>
                             <div>
                                 <Link to='https://www.linkedin.com/in/moumita-saha-01a352142/' target="_blank"><BsLinkedin className='social-icon'></BsLinkedin></Link>
-                                <Link to='https://mail.google.com/moumita.raincloud@gmail.com' target='_blank'><SiGmail className=' social-icon '></SiGmail></Link>
+                                <Link to='https://https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=moumita.raincloud@gmail.com' target='_blank'><SiGmail className=' social-icon '></SiGmail></Link>
                             </div>
                         </div>
                     </div>
@@ -99,7 +99,7 @@ const Team = () => {
                         <div className='overlay'>
                             <div>
                                 <Link to='https://www.linkedin.com/in/sadman-al-sadaf-7b700a110/' target="_blank"><BsLinkedin className='social-icon'></BsLinkedin></Link>
-                                <Link to='https://mail.google.com/sadman@raincloudcomms.com' target='_blank'><SiGmail className=' social-icon '></SiGmail></Link>
+                                <Link to='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=sadman@raincloudcomms.com' target='_blank'><SiGmail className=' social-icon '></SiGmail></Link>
                             </div>
                         </div>
                     </div>
@@ -108,7 +108,7 @@ const Team = () => {
                         <div className='overlay'>
                             <div>
                                 <Link to='https://www.linkedin.com/in/ibtid-m-86ab39216/' target="_blank"><BsLinkedin className='social-icon'></BsLinkedin></Link>
-                                <Link to='https://mail.google.com/ibtid@raincloudcomms.com' target='_blank'><SiGmail className=' social-icon '></SiGmail></Link>
+                                <Link to='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=ibtid@raincloudcomms.com' target='_blank'><SiGmail className=' social-icon '></SiGmail></Link>
                             </div>
                         </div>
                     </div>
@@ -117,7 +117,7 @@ const Team = () => {
                         <div className='overlay'>
                             <div>
                                 <Link to='https://www.linkedin.com/in/mahamudul-hasan-411558237/' target="_blank"><BsLinkedin className='social-icon'></BsLinkedin></Link>
-                                <Link to='https://mail.google.com/bokul@raincloudcomms.com' target='_blank'><SiGmail className=' social-icon '></SiGmail></Link>
+                                <Link to='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=bokul@raincloudcomms.com' target='_blank'><SiGmail className=' social-icon '></SiGmail></Link>
                             </div>
                         </div>
                     </div>
