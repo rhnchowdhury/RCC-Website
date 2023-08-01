@@ -165,7 +165,7 @@ const Team = () => {
                         <div className='overlay'>
                             <div>
                                 <Link to='https://www.linkedin.com/in/sharif-hossain-25357a237/' target="_blank"><BsLinkedin className='social-icon'></BsLinkedin></Link>
-                                <Link to='https://mail.google.com/sharif@raincloudcomms.com' target='_blank'><SiGmail className=' social-icon '></SiGmail></Link>
+                                <Link to='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=sharif@raincloudcomms.com' target='_blank'><SiGmail className=' social-icon '></SiGmail></Link>
                             </div>
                         </div>
                     </div>
@@ -174,7 +174,7 @@ const Team = () => {
                         <div className='overlay'>
                             <div>
                                 <Link to='https://www.linkedin.com/in/fahmeda-gulzar/' target="_blank"><BsLinkedin className='social-icon'></BsLinkedin></Link>
-                                <Link to='https://mail.google.com/mail/fahmeda.raincloud@gmail.com' target='_blank'><SiGmail className=' social-icon '></SiGmail></Link>
+                                <Link to='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=fahmeda.raincloud@gmail.com' target='_blank'><SiGmail className=' social-icon '></SiGmail></Link>
                             </div>
                         </div>
                     </div>
@@ -183,7 +183,7 @@ const Team = () => {
                         <div className='overlay'>
                             <div>
                                 <Link to='https://www.linkedin.com/in/fahmeda-gulzar/' target="_blank"><BsLinkedin className='social-icon'></BsLinkedin></Link>
-                                <Link to='https://mail.google.com/mail/fahmeda.raincloud@gmail.com' target='_blank'><SiGmail className=' social-icon '></SiGmail></Link>
+                                <Link to='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=fahmeda.raincloud@gmail.com' target='_blank'><SiGmail className=' social-icon '></SiGmail></Link>
                             </div>
                         </div>
                     </div>
