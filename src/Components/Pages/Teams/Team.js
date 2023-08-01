@@ -132,7 +132,7 @@ const Team = () => {
                         <div className='overlay'>
                             <div>
                                 <Link to='https://www.linkedin.com/in/redwanur-rahman-rafi/' target="_blank"><BsLinkedin className='social-icon'></BsLinkedin></Link>
-                                <Link to='https://mail.google.com/rafi.raincloud@gmail.com' target='_blank'><SiGmail className=' social-icon '></SiGmail></Link>
+                                <Link to='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=rafi.raincloud@gmail.com' target='_blank'><SiGmail className=' social-icon '></SiGmail></Link>
                             </div>
                         </div>
                     </div>
@@ -141,7 +141,7 @@ const Team = () => {
                         <div className='overlay'>
                             <div>
                                 <Link to='' target="_blank"><BsLinkedin className='social-icon'></BsLinkedin></Link>
-                                <Link to='https://mail.google.com/lubnaraincloudcommunication@gmail.com' target='_blank'><SiGmail className=' social-icon '></SiGmail></Link>
+                                <Link to='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=lubnaraincloudcommunication@gmail.com' target='_blank'><SiGmail className=' social-icon '></SiGmail></Link>
                             </div>
                         </div>
                     </div>
@@ -150,7 +150,7 @@ const Team = () => {
                         <div className='overlay'>
                             <div>
                                 <Link to='https://www.linkedin.com/in/rahman-raad/' target="_blank"><BsLinkedin className='social-icon'></BsLinkedin></Link>
-                                <Link to='https://mail.google.com/rahmanraincloud3@gmail.com' target='_blank'><SiGmail className=' social-icon '></SiGmail></Link>
+                                <Link to='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=rahmanraincloud3@gmail.com' target='_blank'><SiGmail className=' social-icon '></SiGmail></Link>
                             </div>
                         </div>
                     </div>
