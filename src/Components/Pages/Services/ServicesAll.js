@@ -54,7 +54,22 @@ const ServicesAll = () => {
                         <h1 className="text-5xl font-bold">Digital Marketing:</h1>
                         <p className="mt-12">Social media marketing involves creating and implementing marketing strategies on various social media platforms like Facebook, Instagram, Twitter, LinkedIn, etc. The goal is to engage with the audience, build brand awareness, drive traffic to the website, and ultimately convert followers into customers.
                             <br /> <span className='font-bold'>1. Social Media Marketing:</span>Social media marketing includes both organic content posting and paid advertising. Content Marketing: Content marketing focuses on creating valuable, relevant, and informative content to attract and engage a target audience.
-                            <br /> <span className='font-bold'>2. Pay-Per-Click Advertising (PPC):</span> Managing online ad campaigns on platforms like Google Ads, Bing Ads, or social media platforms.                        </p>
+                            <br /> <span className='font-bold'>2. Pay-Per-Click Advertising (PPC):</span> Managing online ad campaigns on platforms like Google Ads, Bing Ads, or social media platforms.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div className="hero my-12">
+                <div className="hero-content flex-col lg:flex-row">
+                    <img src={img1} alt='' className="max-w-md rounded-lg shadow-2xl" />
+                    <div className='ml-12'>
+                        <h1 className="text-5xl font-bold">Website Design & Development:</h1>
+                        <p className="mt-12">Website design and development involve creating and building websites, encompassing everything from the visual appearance and layout to the functionality and performance.Creating responsive and user-friendly websites. Website optimization for better user experience and conversion rates.
+                            <br />
+                            <br /> Depending on the agreement with the client, the marketing agency might also be responsible for promoting the website through various online marketing channels such as SEO, social media, email marketing, and paid advertising.
+                            <br />
+                            <br /> Website design and development can be done by skilled teams with expertise in web development languages.
+                        </p>
                     </div>
                 </div>
             </div>
