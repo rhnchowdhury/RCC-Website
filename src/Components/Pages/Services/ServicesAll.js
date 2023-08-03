@@ -73,7 +73,20 @@ const ServicesAll = () => {
                     </div>
                 </div>
             </div>
-
+            <div className="hero my-12">
+                <div className="hero-content flex-col lg:flex-row-reverse">
+                    <img src={img1} alt='' className="max-w-md rounded-lg shadow-2xl" />
+                    <div className='ml-12'>
+                        <h1 className="text-5xl font-bold">Influencer Marketing:</h1>
+                        <p className="mt-12">Influencer marketing involves collaborating with influential individuals, to promote products, services, or brands to their audience. These influencers have established credibility and a large following in a specific niche or industry, and their opinions and recommendations can significantly impact their followers' purchasing decisions.
+                            <br />
+                            <br />Understand our client's goals and what they want to achieve through influencer marketing. Increasing brand awareness, driving website traffic, generating leads, or boosting sales.
+                            <br />
+                            <br />Promote authentic influencer content aligning with client guidelines and campaign goals for trust and engagement.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </section>
     );
 };
