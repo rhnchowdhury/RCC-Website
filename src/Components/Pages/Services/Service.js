@@ -10,6 +10,7 @@ const Service = () => {
             <p className='text-center'>WHAT CAN WE DO</p>
             <div className='text-center'>
                 <h1 className=" text-4xl font-medium">OUR SERVICES</h1>
+                {/* <p className='text-lg mt-4'>We are a dedicated team committed to providing you with exceptional <br /> solutions and top-notch services.</p> */}
                 <p className='text-lg mt-4'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus nihil facilis reiciendis officiis <br /> consectetur reprehenderit eveniet, blanditiis illo exercitationem possimus?</p>
             </div>
             <div className='grid grid-cols-4 gap-5 my-8 mx-12'>

@@ -47,6 +47,18 @@ const ServicesAll = () => {
                     </div>
                 </div>
             </div>
+            <div className="hero my-12">
+                <div className="hero-content flex-col lg:flex-row-reverse">
+                    <img src={img1} alt='' className="max-w-md rounded-lg shadow-2xl" />
+                    <div className='ml-12'>
+                        <h1 className="text-5xl font-bold">Digital Marketing:</h1>
+                        <p className="mt-12">Social media marketing involves creating and implementing marketing strategies on various social media platforms like Facebook, Instagram, Twitter, LinkedIn, etc. The goal is to engage with the audience, build brand awareness, drive traffic to the website, and ultimately convert followers into customers.
+                            <br /> <span className='font-bold'>1. Social Media Marketing:</span>Social media marketing includes both organic content posting and paid advertising. Content Marketing: Content marketing focuses on creating valuable, relevant, and informative content to attract and engage a target audience.
+                            <br /> <span className='font-bold'>2. Pay-Per-Click Advertising (PPC):</span> Managing online ad campaigns on platforms like Google Ads, Bing Ads, or social media platforms.                        </p>
+                    </div>
+                </div>
+            </div>
+
         </section>
     );
 };
