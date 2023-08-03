@@ -1,5 +1,10 @@
 import React from 'react';
-import img1 from '../../../teams/Azfar-Rahman.png'
+import img1 from '../../../services/buying.jpg';
+import img2 from '../../../services/content.png';
+import img3 from '../../../services/ecosystem.png';
+import img4 from '../../../services/marketing.png';
+import img5 from '../../../services/development.png';
+import img6 from '../../../services/influnce.jpg';
 
 const ServicesAll = () => {
     return (
@@ -20,7 +25,7 @@ const ServicesAll = () => {
             </div>
             <div className="hero my-12">
                 <div className="hero-content flex-col lg:flex-row-reverse">
-                    <img src={img1} alt='' className="max-w-md rounded-lg shadow-2xl" />
+                    <img src={img2} alt='' className="max-w-md rounded-lg shadow-2xl" />
                     <div className='ml-12'>
                         <h1 className="text-5xl font-bold">Content Management:</h1>
                         <p className="mt-12">Our team of expert plan, strategize and create contents according to your business needs. Moreover, we do page/group moderation through monitoring and controlling user generated content on website, social media platforms or other online communities.
@@ -33,7 +38,7 @@ const ServicesAll = () => {
             </div>
             <div className="hero">
                 <div className="hero-content flex-col lg:flex-row">
-                    <img src={img1} alt='' className="max-w-md rounded-lg shadow-2xl" />
+                    <img src={img3} alt='' className="max-w-md rounded-lg shadow-2xl" />
                     <div className='ml-12'>
                         <h1 className="text-5xl font-bold">Digital Ecosystem:</h1>
                         <p className="mt-12">Digital ecosystems can help your business to grow on digital advertising platforms with an interconnected and integrated system consisting of brand guidelines, improving customer experiences, and gathering customer behaviour data, website traffic data, lead conversion, and the effectiveness of your online promotion.
@@ -49,7 +54,7 @@ const ServicesAll = () => {
             </div>
             <div className="hero my-12">
                 <div className="hero-content flex-col lg:flex-row-reverse">
-                    <img src={img1} alt='' className="max-w-md rounded-lg shadow-2xl" />
+                    <img src={img4} alt='' className="max-w-md rounded-lg shadow-2xl" />
                     <div className='ml-12'>
                         <h1 className="text-5xl font-bold">Digital Marketing:</h1>
                         <p className="mt-12">Social media marketing involves creating and implementing marketing strategies on various social media platforms like Facebook, Instagram, Twitter, LinkedIn, etc. The goal is to engage with the audience, build brand awareness, drive traffic to the website, and ultimately convert followers into customers.
@@ -61,7 +66,7 @@ const ServicesAll = () => {
             </div>
             <div className="hero my-12">
                 <div className="hero-content flex-col lg:flex-row">
-                    <img src={img1} alt='' className="max-w-md rounded-lg shadow-2xl" />
+                    <img src={img5} alt='' className="max-w-md rounded-lg shadow-2xl" />
                     <div className='ml-12'>
                         <h1 className="text-5xl font-bold">Website Design & Development:</h1>
                         <p className="mt-12">Website design and development involve creating and building websites, encompassing everything from the visual appearance and layout to the functionality and performance.Creating responsive and user-friendly websites. Website optimization for better user experience and conversion rates.
@@ -75,7 +80,7 @@ const ServicesAll = () => {
             </div>
             <div className="hero my-12">
                 <div className="hero-content flex-col lg:flex-row-reverse">
-                    <img src={img1} alt='' className="max-w-md rounded-lg shadow-2xl" />
+                    <img src={img6} alt='' className="max-w-md rounded-lg shadow-2xl" />
                     <div className='ml-12'>
                         <h1 className="text-5xl font-bold">Influencer Marketing:</h1>
                         <p className="mt-12">Influencer marketing involves collaborating with influential individuals, to promote products, services, or brands to their audience. These influencers have established credibility and a large following in a specific niche or industry, and their opinions and recommendations can significantly impact their followers' purchasing decisions.
