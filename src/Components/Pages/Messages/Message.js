@@ -10,8 +10,7 @@ const Message = () => {
             <p className='text-center'>Get in touch</p>
             <div className='text-center'>
                 <h1 className='text-4xl font-medium '>CONTACT US</h1>
-                <p className='text-lg  mt-4'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus nihil facilis reiciendis officiis <br /> consectetur reprehenderit eveniet, blanditiis illo exercitationem possimus?</p>
-                {/* <p className='text-lg  mt-4'>Reach out and connect with us! Whether you have questions, feedback, or simply <br /> want to get in touch, we're here to listen and assist.</p> */}
+                <p className='text-lg  mt-4'>Reach out and connect with us! Whether you have questions, feedback, or simply <br /> want to get in touch, we're here to listen and assist.</p>
             </div>
             <div className='grid grid-cols-3 m-8'>
                 <div className="card w-96 bg-black text-primary-content ">
