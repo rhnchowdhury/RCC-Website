@@ -18,36 +18,36 @@ const Work = () => {
             </div>
             <div class="container lg:mx-16  mx-auto items-center ">
                 <div class="grid grid-cols-4 grid-rows-4 grid-flow-col gap-2">
-                    <div class="w-full h-96 row-span-2">
+                    <div class="w-full  row-span-2">
                         <img
-                            src={img1} alt="" class="inset-0 h-full w-full object-cover object-center rounded opacity-75 hover:opacity-100" />
+                            src={img1} alt="" class=" h-full w-full object-cover object-center rounded opacity-75 hover:opacity-100" />
                     </div>
-                    <div class="w-full h-96 col-span-2 row-span-2">
+                    <div class="w-full  col-span-2 row-span-2">
                         <img
                             src={img2} alt="" class="inset-0 h-full w-full object-cover object-center rounded opacity-75 hover:opacity-100 " />
                     </div>
-                    <div class="w-full h-96">
+                    <div class="w-full ">
                         <img
                             src={img3} alt="" class="inset-0 h-full w-full object-cover object-center rounded opacity-75 hover:opacity-100 " />
                     </div>
-                    <div class="w-full h-96">
+                    <div class="w-full ">
                         <img
                             src={img4} alt="" class="inset-0 h-full w-full object-cover object-center rounded opacity-75 hover:opacity-100 " />
                     </div>
-                    <div class="w-full h-96 col-span-2 row-span-2">
+                    <div class="w-full  col-span-2 row-span-2">
                         <img
                             src={img5} alt="" class="inset-0 h-full w-full object-cover object-center rounded opacity-75 hover:opacity-100 " />
                     </div>
 
-                    <div class="w-full h-96 col-span-2">
+                    <div class="w-full  col-span-2">
                         <img
                             src={img6} alt="" class="inset-0 h-full w-full object-cover object-center rounded opacity-75 hover:opacity-100 " />
                     </div>
-                    <div class="w-full h-96">
+                    <div class="w-full ">
                         <img
                             src={img7} alt="" class="inset-0 h-full w-full object-cover object-center rounded opacity-75 hover:opacity-100 " />
                     </div>
-                    <div class="w-full h-96">
+                    <div class="w-full ">
                         <img
                             src={img8} alt="" class="inset-0 h-full w-full object-cover object-center rounded opacity-75 hover:opacity-100 " />
                     </div>
