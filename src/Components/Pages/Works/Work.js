@@ -1,35 +1,63 @@
 import React from 'react';
-import { FaUsers } from 'react-icons/fa';
-import { GrAnnounce } from "react-icons/gr";
-import { AiOutlineUserSwitch } from "react-icons/ai";
 
 const Work = () => {
     return (
         <section>
-            <p className='text-center'>WE ARE AWESOME AGENCY</p>
-            <div className='text-center mt-2'>
-                <h1 className=" text-4xl font-medium">WHAT WE DO</h1>
+            <p className='text-center'>PORTFOLIO</p>
+            <div className='text-center'>
+                <h1 className=" text-4xl font-medium">OUR WORK</h1>
+                <p className='text-lg mt-4'>We are a dedicated team committed to providing you with exceptional <br /> solutions and top-notch services.</p>
             </div>
-            <div className='grid grid-cols-3 mx-16 my-4'>
-                <div className="card w-96">
-                    <div className="card-body bg-black">
-                        <span className='flex justify-center'><GrAnnounce className="w-12 h-12 rounded-full" style={{ backgroundColor: 'rgb(212,175,55)' }}></GrAnnounce></span>
-                        <h1 className='text-black text-center text-xl font-medium' style={{ color: 'rgb(212,175,55)' }}>Aware</h1>
-                        <p className='text-black text-center' style={{ color: 'rgb(212,175,55)' }}>As a marketing agency, it is essential for us to recognize the significance of awareness in our day-to-day operations.</p>
+            <div class="container lg:px-16 px-4 py-8 mx-auto items-center ">
+                <div class="grid grid-cols-4 grid-rows-4 grid-flow-col gap-2">
+                    <div class="w-full row-span-2">
+                        <img
+                            src="https://images.unsplash.com/photo-1432457990754-c8b5f21448de?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80"
+                            alt=""
+                            class="inset-0 h-full w-full object-cover object-center rounded opacity-75 hover:opacity-100" />
                     </div>
-                </div>
-                <div className="card w-96">
-                    <div className="card-body bg-black">
-                        <span className='flex justify-center'><AiOutlineUserSwitch className="w-12 h-12 rounded-full" style={{ backgroundColor: 'rgb(212,175,55)' }} ></AiOutlineUserSwitch></span>
-                        <h1 className='text-black text-center text-xl font-medium' style={{ color: 'rgb(212,175,55)' }}>Engage</h1>
-                        <p className='text-black text-center' style={{ color: 'rgb(212,175,55)' }}>Engagement is a critical factor that refers to the level of involvement, interaction, and connection between our brands and our target audience.</p>
+                    <div class="w-full col-span-2 row-span-2">
+                        <img
+                            src="https://images.unsplash.com/photo-1586921829167-409624a3734a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                            alt=""
+                            class="inset-0 h-full w-full object-cover object-center rounded opacity-75 hover:opacity-100 " />
                     </div>
-                </div>
-                <div className="card w-96">
-                    <div className="card-body bg-black">
-                        <span className='flex justify-center'><FaUsers className="w-12 h-12 rounded-full" style={{ backgroundColor: 'rgb(212,175,55)' }}></FaUsers></span>
-                        <h1 className='text-black text-center text-xl font-medium' style={{ color: 'rgb(212,175,55)' }}>Retention</h1>
-                        <p className='text-black text-center' style={{ color: 'rgb(212,175,55)' }}>Retention refers to our ability to retain existing clients, ensuring their continued loyalty and satisfaction with our services.</p>
+                    <div class="w-full ">
+                        <img
+                            src="https://images.unsplash.com/photo-1489981424607-45c58daf0581?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                            alt=""
+                            class="inset-0 h-full w-full object-cover object-center rounded opacity-75 hover:opacity-100 " />
+                    </div>
+                    <div class="w-full">
+                        <img
+                            src="https://images.unsplash.com/photo-1489981424607-45c58daf0581?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                            alt=""
+                            class="inset-0 h-full w-full object-cover object-center rounded opacity-75 hover:opacity-100 " />
+                    </div>
+                    <div class="w-full col-span-2 row-span-2">
+                        <img
+                            src="https://images.unsplash.com/photo-1586921829167-409624a3734a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                            alt=""
+                            class="inset-0 h-full w-full object-cover object-center rounded opacity-75 hover:opacity-100 " />
+                    </div>
+
+                    <div class="w-full col-span-2">
+                        <img
+                            src="https://images.unsplash.com/photo-1534531173927-aeb928d54385?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                            alt=""
+                            class="inset-0 h-full w-full object-cover object-center rounded opacity-75 hover:opacity-100 " />
+                    </div>
+                    <div class="w-full">
+                        <img
+                            src="https://images.unsplash.com/photo-1489981424607-45c58daf0581?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                            alt=""
+                            class="inset-0 h-full w-full object-cover object-center rounded opacity-75 hover:opacity-100 " />
+                    </div>
+                    <div class="w-full">
+                        <img
+                            src="https://images.unsplash.com/photo-1489981424607-45c58daf0581?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                            alt=""
+                            class="inset-0 h-full w-full object-cover object-center rounded opacity-75 hover:opacity-100 " />
                     </div>
                 </div>
             </div>
