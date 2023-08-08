@@ -22,32 +22,32 @@ const Work = () => {
                         <img
                             src={img1} alt="" class="inset-0 h-full w-full object-cover object-center rounded opacity-75 hover:opacity-100" />
                     </div>
-                    <div class="w-full col-span-2 row-span-2">
+                    <div class="w-full h-96 col-span-2 row-span-2">
                         <img
                             src={img2} alt="" class="inset-0 h-full w-full object-cover object-center rounded opacity-75 hover:opacity-100 " />
                     </div>
-                    <div class="w-full ">
+                    <div class="w-full h-96">
                         <img
                             src={img3} alt="" class="inset-0 h-full w-full object-cover object-center rounded opacity-75 hover:opacity-100 " />
                     </div>
-                    <div class="w-full">
+                    <div class="w-full h-96">
                         <img
                             src={img4} alt="" class="inset-0 h-full w-full object-cover object-center rounded opacity-75 hover:opacity-100 " />
                     </div>
-                    <div class="w-full col-span-2 row-span-2">
+                    <div class="w-full h-96 col-span-2 row-span-2">
                         <img
                             src={img5} alt="" class="inset-0 h-full w-full object-cover object-center rounded opacity-75 hover:opacity-100 " />
                     </div>
 
-                    <div class="w-full col-span-2">
+                    <div class="w-full h-96 col-span-2">
                         <img
                             src={img6} alt="" class="inset-0 h-full w-full object-cover object-center rounded opacity-75 hover:opacity-100 " />
                     </div>
-                    <div class="w-full">
+                    <div class="w-full h-96">
                         <img
                             src={img7} alt="" class="inset-0 h-full w-full object-cover object-center rounded opacity-75 hover:opacity-100 " />
                     </div>
-                    <div class="w-full">
+                    <div class="w-full h-96">
                         <img
                             src={img8} alt="" class="inset-0 h-full w-full object-cover object-center rounded opacity-75 hover:opacity-100 " />
                     </div>
