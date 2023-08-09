@@ -14,6 +14,7 @@ import img10 from '../../../teams/Redwanur-Rahman-Rafi.png';
 import img11 from '../../../teams/Sadia-Hossain-Lubna.png';
 import img12 from '../../../teams/Sadman-al-sadaf.png';
 import img13 from '../../../teams/Sharif-Hossen.png';
+import img14 from '../../../teams/sajib.png';
 import './Team.css';
 import { Link } from 'react-router-dom';
 
@@ -170,11 +171,11 @@ const Team = () => {
                         </div>
                     </div>
                     <div className='img-edit'>
-                        <img src={img2} alt='' className="w-96" />
+                        <img src={img14} alt='' className="w-96" />
                         <div className='overlay'>
                             <div>
-                                <Link to='https://www.linkedin.com/in/fahmeda-gulzar/' target="_blank"><BsLinkedin className='social-icon'></BsLinkedin></Link>
-                                <Link to='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=fahmeda.raincloud@gmail.com' target='_blank'><SiGmail className=' social-icon '></SiGmail></Link>
+                                <Link to='https://www.linkedin.com/in/muktadirul-islam-35538424b/' target="_blank"><BsLinkedin className='social-icon'></BsLinkedin></Link>
+                                <Link to='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=muktadirul666@gmail.com' target='_blank'><SiGmail className=' social-icon '></SiGmail></Link>
                             </div>
                         </div>
                     </div>
