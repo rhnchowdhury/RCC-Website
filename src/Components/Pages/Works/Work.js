@@ -21,10 +21,10 @@ const Work = () => {
                 {/* <div className='grid-container'> */}
                 <div className='grid grid-cols-4 gap-3'>
                     <div className='div-1 '>
-                        <img src={img1} alt="" className='img-1 h-96' />
+                        <img src={img1} alt="" className='img-6' />
                     </div>
                     <div className=''>
-                        <img src={img2} alt="" className='h-80' />
+                        <img src={img2} alt="" className='' />
                     </div>
                     <div >
                         <img src={img3} alt="" className='img-6' />
@@ -37,13 +37,13 @@ const Work = () => {
                     </div>
 
                     <div >
-                        <img src={img6} alt="" className='-mt-16 img-6' />
+                        <img src={img6} alt="" className='-mt-24 img-6' />
                     </div>
                     <div >
-                        <img src={img7} alt="" className='h-80 mt-4' />
+                        <img src={img7} alt="" className='' />
                     </div>
                     <div >
-                        <img src={img8} alt="" className='' />
+                        <img src={img8} alt="" className='-mt-24 img-6' />
                     </div>
                 </div>
             </div>
