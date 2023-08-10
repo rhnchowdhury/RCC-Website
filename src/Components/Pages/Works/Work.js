@@ -7,6 +7,7 @@ import img5 from '../../../Client work/Post-08_05-09-2022.png';
 import img6 from '../../../Client work/Post-61_16-10-2022.png';
 import img7 from '../../../Client work/Salmon Salad 14.09.22 v2.jpg';
 import img8 from '../../../Client work/Shades-13-03-22-v2.png';
+import './work.css';
 
 const Work = () => {
     return (
@@ -17,31 +18,32 @@ const Work = () => {
                 <p className='text-lg mt-4'>We are a dedicated team committed to providing you with exceptional <br /> solutions and top-notch services.</p>
             </div>
             <div className='m-16'>
-                <div >
-                    <div >
-                        <img src={img1} alt="" />
+                <div className='grid-container'>
+                    <div className='div-1 '>
+                        <img src={img1} alt="" className='img-1 h-96' />
+                    </div>
+                    <div className=''>
+                        <img src={img2} alt="" className='h-80' />
+                        {/* <img src={img3} alt="" className='w-1/2' /> */}
                     </div>
                     <div >
-                        <img src={img2} alt="" />
+                        <img src={img3} alt="" className='' />
                     </div>
                     <div >
-                        <img src={img3} alt="" />
+                        <img src={img4} alt="" className='' />
                     </div>
                     <div >
-                        <img src={img4} alt="" />
-                    </div>
-                    <div >
-                        <img src={img5} alt="" />
+                        <img src={img5} alt="" className='' />
                     </div>
 
                     <div >
-                        <img src={img6} alt="" />
+                        <img src={img6} alt="" className='h-96 -mt-16 img-6' />
                     </div>
                     <div >
-                        <img src={img7} alt="" />
+                        <img src={img7} alt="" className='' />
                     </div>
                     <div >
-                        <img src={img8} alt="" />
+                        <img src={img8} alt="" className='' />
                     </div>
                 </div>
             </div>
