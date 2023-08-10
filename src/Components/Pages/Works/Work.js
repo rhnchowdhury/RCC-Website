@@ -18,16 +18,16 @@ const Work = () => {
                 <p className='text-lg mt-4'>We are a dedicated team committed to providing you with exceptional <br /> solutions and top-notch services.</p>
             </div>
             <div className='m-16'>
-                <div className='grid-container'>
+                {/* <div className='grid-container'> */}
+                <div className='grid grid-cols-4 gap-3'>
                     <div className='div-1 '>
                         <img src={img1} alt="" className='img-1 h-96' />
                     </div>
                     <div className=''>
                         <img src={img2} alt="" className='h-80' />
-                        {/* <img src={img3} alt="" className='w-1/2' /> */}
                     </div>
                     <div >
-                        <img src={img3} alt="" className='' />
+                        <img src={img3} alt="" className='img-6' />
                     </div>
                     <div >
                         <img src={img4} alt="" className='' />
@@ -37,10 +37,10 @@ const Work = () => {
                     </div>
 
                     <div >
-                        <img src={img6} alt="" className='h-96 -mt-16 img-6' />
+                        <img src={img6} alt="" className='-mt-16 img-6' />
                     </div>
                     <div >
-                        <img src={img7} alt="" className='' />
+                        <img src={img7} alt="" className='h-80 mt-4' />
                     </div>
                     <div >
                         <img src={img8} alt="" className='' />
