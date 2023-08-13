@@ -1,7 +1,8 @@
 .test {
     /* width: calc(50% -50px); */
 
-    background-color: black;
+    background-color: #1B757C;
+    /* background-color: black; */
     margin-right: 25.5%;
     /* margin-right: 18.5%; */
     /* border-right: 35px solid rgb(212, 175, 55); */
@@ -13,7 +14,8 @@
 .nab {
     /* background-color: rgb(212, 175, 55); */
     width: calc(50% -50px);
-    background-color: black;
+    background-color: #1B757C;
+    /* background-color: black; */
     margin-right: 25.5%;
     /* margin-right: 30%; */
     border-right: 1000px solid rgb(212, 175, 55);
@@ -35,7 +37,8 @@
     z-index: 1;
     cursor: pointer;
     border-radius: 2px;
-    background-color: black;
+    background-color: #1B757C;
+    /* background-color: black; */
     box-shadow: 0 0 10px rgb(0, 0, 0, 0.3);
 }
 

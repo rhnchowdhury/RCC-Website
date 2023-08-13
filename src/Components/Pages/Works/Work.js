@@ -1,12 +1,12 @@
 import React from 'react';
-import img1 from '../../../Client work/Eden Apple Pie 12.09.22.jpg';
-import img2 from '../../../Client work/Gazi Pipe 24.10.22 v2.jpg';
-import img3 from '../../../Client work/Pipe_Post_25_26december2022.png';
-import img4 from '../../../Client work/Post 1.png';
-import img5 from '../../../Client work/Post-08_05-09-2022.png';
-import img6 from '../../../Client work/Post-61_16-10-2022.png';
-import img7 from '../../../Client work/Salmon Salad 14.09.22 v2.jpg';
-import img8 from '../../../Client work/Shades-13-03-22-v2.png';
+import img1 from '../../../Client work/Door_post25_04january2023.png';
+import img2 from '../../../Client work/Santoor - June 10.png';
+import img3 from '../../../Client work/Bowling_post41_03april2023.png';
+import img4 from '../../../Client work/3 Sharif.png';
+import img5 from '../../../Client work/24_feb_yeasin.png';
+import img6 from '../../../Client work/Peugeot_Post36_14june2023-v2.png';
+import img7 from '../../../Client work/Post-03_04-04-2023.png';
+import img8 from '../../../Client work/SLI - Apr 20.jpg';
 import { Link } from 'react-router-dom';
 
 const Work = () => {

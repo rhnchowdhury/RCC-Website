@@ -17,7 +17,7 @@ const NavBar = () => {
                         <span className='line2 common'></span>
                         <span className='line3 common'></span>
                     </div>
-                    <ul className="drop bg-black">
+                    <ul className="drop " style={{ backgroundColor: '#1B757C' }}>
                         <li><Link to='/' className='ml-3' style={{ color: 'rgb(212,175,55)' }}>Home</Link></li>
                         <li><Link to='/about' className='ml-3' style={{ color: 'rgb(212,175,55)' }}>About</Link></li>
                         <li><Link to='/team' className='ml-3' style={{ color: 'rgb(212,175,55)' }}>Our Teams</Link></li>
