@@ -7,6 +7,7 @@ import img5 from '../../../Client work/Post-08_05-09-2022.png';
 import img6 from '../../../Client work/Post-61_16-10-2022.png';
 import img7 from '../../../Client work/Salmon Salad 14.09.22 v2.jpg';
 import img8 from '../../../Client work/Shades-13-03-22-v2.png';
+import { Link } from 'react-router-dom';
 
 const Work = () => {
     return (
@@ -43,6 +44,9 @@ const Work = () => {
                     <div >
                         <img src={img8} alt="" className='-mt-24 opacity-50 hover:opacity-100' style={{ height: '394px' }} />
                     </div>
+                </div>
+                <div className='flex justify-center mt-5' >
+                    <Link to='/work'><button className="btn btn-active px-10 bg-indigo-300">See All</button></Link>
                 </div>
             </div>
         </section>
