@@ -1,9 +1,9 @@
 import React from 'react';
-import img1 from '../../../Client work/Door_post25_04january2023.png';
-import img2 from '../../../Client work/Santoor - June 10.png';
+import img1 from '../../../Client work/11 Bokul.png';
+import img2 from '../../../Client work/Door_post25_04january2023.png';
 import img3 from '../../../Client work/Bowling_post41_03april2023.png';
 import img4 from '../../../Client work/3 Sharif.png';
-import img5 from '../../../Client work/24_feb_yeasin.png';
+import img5 from '../../../Client work/WhatsApp Image 2023-05-11 at 5.16.18 PM.jpeg';
 import img6 from '../../../Client work/Peugeot_Post36_14june2023-v2.png';
 import img7 from '../../../Client work/Post-03_04-04-2023.png';
 import img8 from '../../../Client work/SLI - Apr 20.jpg';
