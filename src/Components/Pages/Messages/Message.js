@@ -12,28 +12,28 @@ const Message = () => {
                 <h1 className='text-4xl font-medium '>CONTACT US</h1>
                 <p className='text-lg  mt-4'>Reach out and connect with us! Whether you have questions, feedback, or simply <br /> want to get in touch, we're here to listen and assist.</p>
             </div>
-            <div className='grid grid-cols-3 m-8'>
-                <div className="card w-96 bg-black text-primary-content ">
+            <div className='grid grid-cols-3 m-8 ml-14'>
+                <div className="card w-96 text-primary-content " style={{ backgroundColor: '#12585a' }}>
                     <div className="card-body">
-                        <span className='flex justify-center'><FaMobileAlt className='w-12 h-10' style={{ color: 'rgb(212, 175, 55) ' }}></FaMobileAlt></span>
-                        <p className='text-center text-xl font-semibold' style={{ color: 'rgb(212, 175, 55) ' }}>Phone</p>
-                        <p className='text-center' style={{ color: 'rgb(212, 175, 55) ' }}>+8801777750875</p>
-                        <p className='text-center' style={{ color: 'rgb(212, 175, 55) ' }}>+8801716688069</p>
+                        <span className='flex justify-center'><FaMobileAlt className='w-12 h-10 text-white' ></FaMobileAlt></span>
+                        <p className='text-center text-xl font-semibold text-white' >Phone</p>
+                        <p className='text-center text-white' >+8801777750875</p>
+                        <p className='text-center text-white' >+8801716688069</p>
                     </div>
                 </div>
-                <div className="card w-96 bg-black text-primary-content">
+                <div className="card w-96 text-primary-content" style={{ backgroundColor: '#12585a' }}>
                     <div className="card-body">
-                        <span className='flex justify-center'><IoLocationSharp className='w-12 h-10' style={{ color: 'rgb(212, 175, 55) ' }}></IoLocationSharp> </span>
-                        <p className='text-center text-xl font-semibold' style={{ color: 'rgb(212, 175, 55) ' }}>Address</p>
-                        <p className='text-center' style={{ color: 'rgb(212, 175, 55) ' }}>Rangs Shawpnil, Level 5, House 2,  <br /> Road ⅔, Banani, Dhaka 1213</p>
+                        <span className='flex justify-center'><IoLocationSharp className='w-12 h-10 text-white' ></IoLocationSharp> </span>
+                        <p className='text-center text-xl font-semibold text-white' >Address</p>
+                        <p className='text-center text-white' >Rangs Shawpnil, Level 5, House 2,  <br /> Road ⅔, Banani, Dhaka 1213</p>
 
                     </div>
                 </div>
-                <div className="card w-96 bg-black text-primary-content">
+                <div className="card w-96 text-primary-content" style={{ backgroundColor: '#12585a' }}>
                     <div className="card-body">
-                        <span className='flex justify-center'><MdAlternateEmail className='w-12 h-10' style={{ color: 'rgb(212, 175, 55) ' }}></MdAlternateEmail></span>
-                        <p className='text-center text-xl font-semibold' style={{ color: 'rgb(212, 175, 55) ' }}>Email</p>
-                        <p className='text-center' style={{ color: 'rgb(212, 175, 55) ' }}>raincloud.hr@gmail.com</p>
+                        <span className='flex justify-center'><MdAlternateEmail className='w-12 h-10 text-white' ></MdAlternateEmail></span>
+                        <p className='text-center text-xl font-semibold text-white' >Email</p>
+                        <p className='text-center text-white' >raincloud.hr@gmail.com</p>
                     </div>
                 </div>
             </div>
