@@ -46,7 +46,7 @@ const Work = () => {
                     </div>
                 </div>
                 <div className='flex justify-center mt-5' >
-                    <Link to='/work'><button className="btn btn-active px-10 bg-indigo-300">See All</button></Link>
+                    <Link to='/work'><button className="btn btn-active px-10 text-white" style={{ backgroundColor: '#12585a' }}>See All</button></Link>
                 </div>
             </div>
         </section>
