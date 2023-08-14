@@ -23,6 +23,18 @@ import img21 from '../../../Client work/L-H_Post22_10july2023.png';
 import img22 from '../../../Client work/Post 6.png';
 import img23 from '../../../Client work/SFD - July 13.jpg';
 import img24 from '../../../Client work/Post-26_25-09-2022-GaziDoor_Rumi.png';
+import img25 from '../../../Client work/Post-1.jpg';
+import img26 from '../../../Client work/Post-02_04-04-2023.png';
+import img27 from '../../../Client work/RaRa_post01_27july2023.png';
+import img28 from '../../../Client work/Post-12_14-08-2022.png';
+import img29 from '../../../Client work/GC - March 26.jpg';
+import img30 from '../../../Client work/Post-11_23-08-2022.png';
+import img31 from '../../../Client work/Post 2.png';
+import img32 from '../../../Client work/Post-03_04-04-2023.png';
+import img33 from '../../../Client work/WhatsApp Image 2023-05-11 at 5.16.18 PM.jpeg';
+import img34 from '../../../Client work/Shades-13-03-22-v2.png';
+import img35 from '../../../Client work/GC V2 - Feb 21.jpg';
+import img36 from '../../../Client work/RH Hygiene 28.3.23.jpg';
 
 const WorkAll = () => {
     return (
@@ -99,6 +111,42 @@ const WorkAll = () => {
                 </div>
                 <div>
                     <img src={img24} alt="" className='-mt-14 h-64' />
+                </div>
+                <div>
+                    <img src={img25} alt="" className='' />
+                </div>
+                <div>
+                    <img src={img26} alt="" className='h-64' />
+                </div>
+                <div>
+                    <img src={img27} alt="" className='' />
+                </div>
+                <div>
+                    <img src={img28} alt="" className='h-64' />
+                </div>
+                <div>
+                    <img src={img29} alt="" className='' />
+                </div>
+                <div>
+                    <img src={img30} alt="" className='h-64' />
+                </div>
+                <div>
+                    <img src={img31} alt="" className='-mt-14 h-64' />
+                </div>
+                <div>
+                    <img src={img32} alt="" className='' />
+                </div>
+                <div>
+                    <img src={img33} alt="" className='-mt-14 h-64' />
+                </div>
+                <div>
+                    <img src={img34} alt="" className='' />
+                </div>
+                <div>
+                    <img src={img35} alt="" className='-mt-14 h-64' />
+                </div>
+                <div>
+                    <img src={img36} alt="" className='' />
                 </div>
 
 
