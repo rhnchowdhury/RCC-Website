@@ -17,12 +17,12 @@ const NavBar = () => {
                         <span className='line2 common'></span>
                         <span className='line3 common'></span>
                     </div>
-                    <ul className="drop " style={{ backgroundColor: '#1B757C' }}>
-                        <li><Link to='/' className='ml-3' style={{ color: 'rgb(212,175,55)' }}>Home</Link></li>
-                        <li><Link to='/about' className='ml-3' style={{ color: 'rgb(212,175,55)' }}>About</Link></li>
-                        <li><Link to='/team' className='ml-3' style={{ color: 'rgb(212,175,55)' }}>Our Teams</Link></li>
-                        <li><Link to='/service' className='ml-3' style={{ color: 'rgb(212,175,55)' }}>Services</Link></li>
-                        <li><Link to='/contact' className='ml-3' style={{ color: 'rgb(212,175,55)' }}>Contact</Link></li>
+                    <ul className="drop " style={{ backgroundColor: '#12585a' }}>
+                        <li><Link to='/' className='ml-3 text-white'>Home</Link></li>
+                        <li><Link to='/about' className='ml-3 text-white'>About</Link></li>
+                        {/* <li><Link to='/team' className='ml-3 text-white'>Our Teams</Link></li> */}
+                        <li><Link to='/service' className='ml-3 text-white'>Services</Link></li>
+                        <li><Link to='/contact' className='ml-3 text-white'>Contact</Link></li>
                     </ul>
                 </label>
             </div>
