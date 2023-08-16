@@ -37,15 +37,15 @@ import img35 from '../../../Client work/GC V2 - Feb 21.jpg';
 import img36 from '../../../Client work/RH Hygiene 28.3.23.jpg';
 import img37 from '../../../Client work/2 Bokul.png';
 import img38 from '../../../Client work/Peugeot_Post29_25may2023_v2.png';
-import img39 from '../../../Client work/Bowling_post29_26january2023_Bokul.png';
+import img39 from '../../../Client work/Post-168_01-02-2023.png';
 import img40 from '../../../Client work/4 Sharif.png';
-import img41 from '../../../Client work/Post-168_01-02-2023.png';
+import img41 from '../../../Client work/Bowling_post29_26january2023_Bokul.png';
 import img42 from '../../../Client work/Bowling_post46_13april2023.png';
 import img43 from '../../../Client work/2.2 Bokul.png';
 import img44 from '../../../Client work/Peugeot_Post07_01march2023 (1).png';
-import img45 from '../../../Client work/Bowling_post54_08may2023.png';
+import img45 from '../../../Client work/Peugeot_Post42_09july2023_02.png';
 import img46 from '../../../Client work/10.2 Bokul.png';
-import img47 from '../../../Client work/Peugeot_Post42_09july2023_02.png';
+import img47 from '../../../Client work/Bowling_post54_08may2023.png';
 import img48 from '../../../Client work/Bowling_post66_11july2023.png';
 
 const WorkAll = () => {
