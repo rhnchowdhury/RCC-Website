@@ -47,12 +47,13 @@ import img45 from '../../../Client work/Peugeot_Post42_09july2023_02.png';
 import img46 from '../../../Client work/10.2 Bokul.png';
 import img47 from '../../../Client work/Bowling_post54_08may2023.png';
 import img48 from '../../../Client work/Bowling_post66_11july2023.png';
+import './WorkAll.css';
 
 const WorkAll = () => {
     return (
         <div className='m-16'>
             <div className='grid grid-cols-6 gap-2'>
-                <div>
+                <div className='img-edit'>
                     <img src={img1} alt="" />
                 </div>
                 <div>
