@@ -28,8 +28,8 @@ const NavBar = () => {
             </div>
             <div className="navbar-center">
                 <Link to='/contact' className='flex'>
-                    <p className='text-base font-bold'>GET IN TOUCH</p>
-                    <span className='ml-2'><MdForwardToInbox className='w-6 h-6'></MdForwardToInbox></span>
+                    <p className='text-base font-bold' style={{ color: '#12585a' }}>GET IN TOUCH</p>
+                    <span className='ml-2'><MdForwardToInbox className='w-6 h-6' style={{ color: '#12585a' }}></MdForwardToInbox></span>
                 </Link>
             </div>
             <div className="navbar-end">
