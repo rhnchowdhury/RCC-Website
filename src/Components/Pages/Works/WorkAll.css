@@ -1,8 +1,9 @@
-img {
+.img-edit {
 
     transition: 1s;
 }
 
-img:hover {
+.img-edit:hover {
     transform: scale(1.3);
+    z-index: 1;
 }

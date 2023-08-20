@@ -53,149 +53,149 @@ const WorkAll = () => {
     return (
         <div className='m-16'>
             <div className='grid grid-cols-6 gap-2'>
-                <div className='img-edit'>
-                    <img src={img1} alt="" />
+                <div>
+                    <img src={img1} alt="" className='img-edit' />
                 </div>
                 <div>
-                    <img src={img2} alt="" className='h-64' />
+                    <img src={img2} alt="" className='h-64 img-edit' />
                 </div>
                 <div>
-                    <img src={img3} alt="" />
+                    <img src={img3} alt="" className='img-edit' />
                 </div>
                 <div>
-                    <img src={img4} alt="" className='h-64' />
+                    <img src={img4} alt="" className='h-64 img-edit' />
                 </div>
                 <div>
-                    <img src={img5} alt="" />
+                    <img src={img5} alt="" className='img-edit' />
                 </div>
                 <div>
-                    <img src={img6} alt="" className='h-64' />
+                    <img src={img6} alt="" className='h-64 img-edit' />
                 </div>
                 <div>
-                    <img src={img7} alt="" className='-mt-14 h-64' />
+                    <img src={img7} alt="" className='-mt-14 h-64 img-edit' />
                 </div>
                 <div>
-                    <img src={img8} alt="" />
+                    <img src={img8} alt="" className='img-edit' />
                 </div>
                 <div>
-                    <img src={img9} alt="" className='-mt-14 h-64' />
+                    <img src={img9} alt="" className='-mt-14 h-64 img-edit' />
                 </div>
                 <div>
-                    <img src={img10} alt="" className='' />
+                    <img src={img10} alt="" className='img-edit' />
                 </div>
                 <div>
-                    <img src={img11} alt="" className='-mt-14 h-64' />
+                    <img src={img11} alt="" className='-mt-14 h-64 img-edit' />
                 </div>
                 <div>
-                    <img src={img12} alt="" className='' />
+                    <img src={img12} alt="" className='img-edit' />
                 </div>
                 <div>
-                    <img src={img13} alt="" className='h-64' />
+                    <img src={img13} alt="" className='h-64 img-edit' />
                 </div>
                 <div>
-                    <img src={img14} alt="" className='' />
+                    <img src={img14} alt="" className='img-edit' />
                 </div>
                 <div>
-                    <img src={img15} alt="" className='h-64' />
+                    <img src={img15} alt="" className='h-64 img-edit' />
                 </div>
                 <div>
-                    <img src={img16} alt="" className='' />
+                    <img src={img16} alt="" className='img-edit' />
                 </div>
                 <div>
-                    <img src={img17} alt="" className='h-64' />
+                    <img src={img17} alt="" className='h-64 img-edit' />
                 </div>
                 <div>
-                    <img src={img18} alt="" className='' />
+                    <img src={img18} alt="" className='img-edit' />
                 </div>
                 <div>
-                    <img src={img19} alt="" className='' />
+                    <img src={img19} alt="" className='img-edit' />
                 </div>
                 <div>
-                    <img src={img20} alt="" className='-mt-14 h-64' />
+                    <img src={img20} alt="" className='-mt-14 h-64 img-edit' />
                 </div>
                 <div>
-                    <img src={img21} alt="" className='' />
+                    <img src={img21} alt="" className='img-edit' />
                 </div>
                 <div>
-                    <img src={img22} alt="" className='-mt-14 h-64' />
+                    <img src={img22} alt="" className='-mt-14 h-64 img-edit' />
                 </div>
                 <div>
-                    <img src={img23} alt="" className='' />
+                    <img src={img23} alt="" className='img-edit' />
                 </div>
                 <div>
-                    <img src={img24} alt="" className='-mt-14 h-64' />
+                    <img src={img24} alt="" className='-mt-14 h-64 img-edit' />
                 </div>
                 <div>
-                    <img src={img25} alt="" className='' />
+                    <img src={img25} alt="" className='img-edit' />
                 </div>
                 <div>
-                    <img src={img26} alt="" className='h-64' />
+                    <img src={img26} alt="" className='h-64 img-edit' />
                 </div>
                 <div>
-                    <img src={img27} alt="" className='' />
+                    <img src={img27} alt="" className='img-edit' />
                 </div>
                 <div>
-                    <img src={img28} alt="" className='h-64' />
+                    <img src={img28} alt="" className='h-64 img-edit' />
                 </div>
                 <div>
-                    <img src={img29} alt="" className='' />
+                    <img src={img29} alt="" className='img-edit' />
                 </div>
                 <div>
-                    <img src={img30} alt="" className='h-64' />
+                    <img src={img30} alt="" className='h-64 img-edit' />
                 </div>
                 <div>
-                    <img src={img31} alt="" className='-mt-14 h-64' />
+                    <img src={img31} alt="" className='-mt-14 h-64 img-edit' />
                 </div>
                 <div>
-                    <img src={img32} alt="" className='' />
+                    <img src={img32} alt="" className='img-edit' />
                 </div>
                 <div>
-                    <img src={img33} alt="" className='-mt-14 h-64' />
+                    <img src={img33} alt="" className='-mt-14 h-64 img-edit' />
                 </div>
                 <div>
-                    <img src={img34} alt="" className='' />
+                    <img src={img34} alt="" className='img-edit' />
                 </div>
                 <div>
-                    <img src={img35} alt="" className='-mt-14 h-64' />
+                    <img src={img35} alt="" className='-mt-14 h-64 img-edit' />
                 </div>
                 <div>
-                    <img src={img36} alt="" className='' />
+                    <img src={img36} alt="" className='img-edit' />
                 </div>
                 <div>
-                    <img src={img37} alt="" className='h-64' />
+                    <img src={img37} alt="" className='h-64 img-edit' />
                 </div>
                 <div>
-                    <img src={img38} alt="" className='' />
+                    <img src={img38} alt="" className='img-edit' />
                 </div>
                 <div>
-                    <img src={img39} alt="" className='h-64' />
+                    <img src={img39} alt="" className='h-64 img-edit' />
                 </div>
                 <div>
-                    <img src={img40} alt="" className='' />
+                    <img src={img40} alt="" className='img-edit' />
                 </div>
                 <div>
-                    <img src={img41} alt="" className='h-64' />
+                    <img src={img41} alt="" className='h-64 img-edit' />
                 </div>
                 <div>
-                    <img src={img42} alt="" className='' />
+                    <img src={img42} alt="" className='img-edit' />
                 </div>
                 <div>
-                    <img src={img43} alt="" className='' />
+                    <img src={img43} alt="" className='img-edit' />
                 </div>
                 <div>
-                    <img src={img44} alt="" className='-mt-14 h-64' />
+                    <img src={img44} alt="" className='-mt-14 h-64 img-edit' />
                 </div>
                 <div>
-                    <img src={img45} alt="" className='' />
+                    <img src={img45} alt="" className='img-edit' />
                 </div>
                 <div>
-                    <img src={img46} alt="" className='-mt-14 h-64' />
+                    <img src={img46} alt="" className='-mt-14 h-64 img-edit' />
                 </div>
                 <div>
-                    <img src={img47} alt="" className='' />
+                    <img src={img47} alt="" className='img-edit' />
                 </div>
                 <div>
-                    <img src={img48} alt="" className='-mt-14 h-64' />
+                    <img src={img48} alt="" className='-mt-14 h-64 img-edit' />
                 </div>
 
 
