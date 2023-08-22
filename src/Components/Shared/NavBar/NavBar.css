@@ -1,23 +1,16 @@
 .test {
-    /* width: calc(50% -50px); */
-    /* border-right: 35px solid rgb(212, 175, 55); */
-    /* background-color: black; */
-
     margin-top: -8px;
     margin-left: -8px;
-
     background-color: #12585a;
-    margin-right: 25.5%;
+    margin-right: 17.1%;
     /* margin-right: 18.5%; */
     border-right: 35px solid white;
     border-bottom: 93px solid transparent;
 }
 
 .nab {
-    /* background-color: rgb(212, 175, 55); */
     width: calc(50% -50px);
     background-color: #12585a;
-    /* background-color: black; */
     margin-right: 25.5%;
     /* margin-right: 30%; */
     border-right: 1000px solid rgb(212, 175, 55);
@@ -27,7 +20,6 @@
 .input-check {
     display: none;
     visibility: hidden;
-    /* -webkit-appearance: none; */
 }
 
 .toggle {
@@ -91,14 +83,10 @@ input:checked~.toggle .line2 {
     top: 14px;
     width: 25px;
     transform: rotate(-45deg);
-    /* opacity: 0;
-    transform: translate(20px); */
 }
 
 .drop {
-    /* margin-top: 6%; */
     margin-top: 6.9%;
-    /* height: 100%; */
     height: 20%;
     width: 180px;
     position: absolute;

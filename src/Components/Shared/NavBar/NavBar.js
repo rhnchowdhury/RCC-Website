@@ -8,7 +8,7 @@ const NavBar = () => {
 
     return (
         <div className="navbar" >
-            <div className="navbar-start test -mb-6">
+            <div className="navbar-start test -mb-2">
                 {/* <label className='hamburger' style={{ backgroundColor: 'rgb(212,175,55)' }}> */}
                 <label className='hamburger'>
                     <input type="checkbox" className='input-check' />
