@@ -1,12 +1,12 @@
 import React from 'react';
-import img1 from '../../../logo/cr-1.png';
-import img2 from '../../../logo/cr-2.png';
-import img3 from '../../../logo/cr-3.png';
-import img4 from '../../../logo/cr-4.png';
+import img1 from '../../../logo/creative-1.png';
+import img2 from '../../../logo/creative-2.png';
+import img3 from '../../../logo/creative-3.png';
+import img4 from '../../../logo/creative-4.png';
 
 const Creative = () => {
     return (
-        <section className='my-5 mx-20'>
+        <section className='my-5'>
             <div className="carousel w-full" style={{ height: '500px' }}>
                 <div id="slider1" className="carousel-item relative w-full">
                     <img src={img1} alt='' className="w-full" />

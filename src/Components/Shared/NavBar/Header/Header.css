@@ -1,4 +1,4 @@
-.full-section {
+.full-part {
     top: 50%;
     height: 400px;
     width: 100%;
@@ -6,8 +6,6 @@
 }
 
 .first-part {
-    width: calc(70% -70px);
-    height: 98%;
     background-color: #12585a;
     border-right: 150px solid white;
     border-bottom: 399px solid transparent;
