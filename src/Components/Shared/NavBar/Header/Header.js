@@ -12,12 +12,10 @@ const Header = () => {
 
             <div className='second-part'>
                 <video autoPlay loop>
-                    {/* <video autoPlay loop style={{ maxWidth: '700px' }}> */}
                     <source src={reel} type="video/mp4" />
                 </video>
             </div>
         </div>
     );
 };
-
 export default Header;

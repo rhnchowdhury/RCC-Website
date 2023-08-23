@@ -1,13 +1,12 @@
 import React from 'react';
 import { BsFacebook, BsInstagram, BsLinkedin } from "react-icons/bs";
-
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
         <div>
-            <footer className="footer footer-center p-10 text-base-content rounded" style={{ backgroundColor: '#12585a' }}>
-                <div>
+            <footer className="footer footer-center p-5 text-base-content rounded" style={{ backgroundColor: '#12585a' }}>
+                <div className='mt-4'>
                     <div className="grid grid-flow-col gap-4">
                         <button className='text-white rounded-full'><Link to='https://www.facebook.com/Raincloudcommunications' target="_blank" rel="noopener noreferrer"><BsFacebook className='w-8 h-8'></BsFacebook></Link> </button>
                         <button className='text-white rounded-full'><Link to='https://www.instagram.com/raincloud.communications/' target="_blank" rel="noopener noreferrer"><BsInstagram className='w-8 h-8'></BsInstagram></Link></button>

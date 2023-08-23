@@ -17,7 +17,7 @@ const Work = () => {
                 <h1 className=" text-4xl font-medium">OUR WORK</h1>
                 <p className='text-lg mt-4'>We are a dedicated team committed to providing you with exceptional <br /> solutions and top-notch services.</p>
             </div>
-            <div className='m-16'>
+            <div className='m-12'>
                 <div className='grid grid-cols-4 gap-3'>
                     <div className='div-1 '>
                         <img src={img1} alt="" className='opacity-50 hover:opacity-100' style={{ height: '394px' }} />
@@ -36,13 +36,13 @@ const Work = () => {
                     </div>
 
                     <div >
-                        <img src={img6} alt="" className='-mt-24 opacity-50 hover:opacity-100' style={{ height: '394px' }} />
+                        <img src={img6} alt="" className='opacity-50 hover:opacity-100' style={{ height: '394px', marginTop: '-89px' }} />
                     </div>
                     <div >
                         <img src={img7} alt="" className='opacity-50 hover:opacity-100' />
                     </div>
                     <div >
-                        <img src={img8} alt="" className='-mt-24 opacity-50 hover:opacity-100' style={{ height: '394px' }} />
+                        <img src={img8} alt="" className='opacity-50 hover:opacity-100' style={{ height: '394px', marginTop: '-89px' }} />
                     </div>
                 </div>
                 <div className='flex justify-center mt-5' >

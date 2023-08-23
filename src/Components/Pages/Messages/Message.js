@@ -12,7 +12,7 @@ const Message = () => {
                 <h1 className='text-4xl font-medium '>CONTACT US</h1>
                 <p className='text-lg  mt-4'>Reach out and connect with us! Whether you have questions, feedback, or simply <br /> want to get in touch, we're here to listen and assist.</p>
             </div>
-            <div className='grid grid-cols-3 m-8 ml-14'>
+            <div className='grid grid-cols-3 mx-12 mt-5 gap-12'>
                 <div className="card w-96 text-primary-content " style={{ backgroundColor: '#12585a' }}>
                     <div className="card-body">
                         <span className='flex justify-center'><FaMobileAlt className='w-12 h-10 text-white' ></FaMobileAlt></span>
